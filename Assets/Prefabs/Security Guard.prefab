@@ -10,13 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1729679625752319798}
   - component: {fileID: 8083984020002655927}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flashlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1729679625752319798
 Transform:
   m_ObjectHideFlags: 0
@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 7653980656456419750}
   - component: {fileID: 7653980656456419748}
   - component: {fileID: 7653980656456419749}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CapturePlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 7653980657252976797}
   - component: {fileID: 7653980657252976796}
   - component: {fileID: 7653980657252976787}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,7 +301,7 @@ GameObject:
   - component: {fileID: 7653980657305941658}
   - component: {fileID: 7653980657305941663}
   - component: {fileID: 7653980657305941661}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Security Guard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -341,7 +341,6 @@ MonoBehaviour:
   patrolPath: []
   patrolPathPrefab: {fileID: 7441595202083195410, guid: 8702762850c279c4591112489ebc96a6, type: 3}
   walkSpeed: 5
-  chaseSpeed: 8
   currVelocityV2: {x: 0, y: 0}
   nextWaypointDistance: 0.5
   chaseTime: 5

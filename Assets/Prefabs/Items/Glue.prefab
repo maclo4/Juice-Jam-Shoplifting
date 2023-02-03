@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3595309013663378364}
   - component: {fileID: 4002223362073306132}
   - component: {fileID: 2462511858959515381}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Glue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,3 +142,4 @@ MonoBehaviour:
   speedBoost: 0
   stealthBoost: 2
   securityChange: 0.5
+  description: 

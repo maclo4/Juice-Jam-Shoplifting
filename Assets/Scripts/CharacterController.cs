@@ -13,6 +13,7 @@ public class CharacterController : MonoBehaviour
     public CutsceneManager cutsceneManager;
     public NpcManager npcManager;
     private Rigidbody2D rb;
+    [SerializeField] private FieldOfView fieldOfView;
 
     private Vector2 currVelocity;
     public float decelerationTime;
@@ -53,6 +54,9 @@ public class CharacterController : MonoBehaviour
 
     void Update()
     {
+        fieldOfView.SetAimDirection(inputs.move.normalized);
+        fieldOfView.SetOrigin(transform.position);
+        
         if (caught)
         {
             animator.SetTrigger(CaughtAnim);

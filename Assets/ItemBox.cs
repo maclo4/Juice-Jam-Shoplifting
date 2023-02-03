@@ -76,5 +76,19 @@ public class ItemBox : MonoBehaviour
 
         item1Name.text = item1.name;
         item2Name.text = item2.name;
+        
+        item1Description.text = item1.description;
+        item2Description.text = item2.description;
+
+        item1Stats.text += "Speed Boost: " + item1.speedBoost + System.Environment.NewLine;
+        item2Stats.text += "Speed Boost: " + item2.speedBoost + System.Environment.NewLine;
+        
+        
+        item1Stats.text += "Stealth Boost: " + item1.stealthBoost + System.Environment.NewLine;
+        item2Stats.text += "Stealth Boost: " + item2.stealthBoost + System.Environment.NewLine;
+        
+        
+        item1Stats.text += "Security: " + item1.securityChange + System.Environment.NewLine;
+        item2Stats.text += "Security: " + item2.securityChange + System.Environment.NewLine;
     }
 }

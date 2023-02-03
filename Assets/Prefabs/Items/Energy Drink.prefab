@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8741175323866682304}
   - component: {fileID: 1734314794146684989}
   - component: {fileID: 5585191840529494069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Energy Drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,6 +130,7 @@ MonoBehaviour:
   speedBoost: 0.25
   stealthBoost: -0.25
   securityChange: 0.25
+  description: 
 --- !u!114 &5585191840529494069
 MonoBehaviour:
   m_ObjectHideFlags: 0

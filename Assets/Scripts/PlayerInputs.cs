@@ -45,7 +45,7 @@ namespace DefaultNamespace
 
         public void OnMove(InputAction.CallbackContext context)
         {
-            move = inputs.Controller.Move.ReadValue<Vector2>();
+            move = context.ReadValue<Vector2>();
         }
 
         private void Update()

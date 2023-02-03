@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2943059147908261851}
   - component: {fileID: 3090646509575281322}
   - component: {fileID: 4002939656689386173}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Item Attribute 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 2627641145299877698}
   - component: {fileID: 6821908758298996322}
   - component: {fileID: 4246060578454935337}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Item Attribute
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 8045600428686225231}
   - component: {fileID: 8123425550439177873}
   - component: {fileID: 5152217796110282145}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Item Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +417,7 @@ GameObject:
   - component: {fileID: 3528875304944561632}
   - component: {fileID: 7722978054070573297}
   - component: {fileID: 3157945705582013127}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Item Card
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -552,7 +552,7 @@ GameObject:
   - component: {fileID: 5886835739731013284}
   - component: {fileID: 7701640480570175636}
   - component: {fileID: 592866667177053754}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Item Attribute 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -686,7 +686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8732088177074135411}
   - component: {fileID: 3257058979365242731}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Dashboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -734,7 +734,7 @@ GameObject:
   - component: {fileID: 4986648298440577790}
   - component: {fileID: 5124803801534387993}
   - component: {fileID: 5928688081473411698}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Item Attribute
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -870,7 +870,7 @@ GameObject:
   - component: {fileID: 5897355947984369097}
   - component: {fileID: 7289740361576389981}
   - component: {fileID: 1820543073216150491}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Item Cards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -970,7 +970,7 @@ GameObject:
   - component: {fileID: 2554963777538916208}
   - component: {fileID: 8515804560118101627}
   - component: {fileID: 9075742389657647791}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Item Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1106,7 +1106,7 @@ GameObject:
   - component: {fileID: 7486483833371125875}
   - component: {fileID: 4771983949986279389}
   - component: {fileID: 8995971583388561740}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Item Card 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1242,7 +1242,7 @@ GameObject:
   - component: {fileID: 4295074688629724630}
   - component: {fileID: 7413648195270876947}
   - component: {fileID: 1710532688684158912}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ItemBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
