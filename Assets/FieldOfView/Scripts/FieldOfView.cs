@@ -19,21 +19,20 @@ public class FieldOfView : MonoBehaviour {
 
     [SerializeField] private LayerMask layerMask;
     private Mesh mesh;
-    private float fov;
-    private float viewDistance;
+    public float fov = 360f;
+    public float viewDistance = 10f;
+    public int rayCount = 150;
     private Vector3 origin;
     private float startingAngle;
 
     private void Start() {
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
-        fov = 360f;
-        viewDistance = 10f;
+        
         origin = Vector3.zero;
     }
 
     private void LateUpdate() {
-        int rayCount = 100;
         float angle = startingAngle;
         float angleIncrease = fov / rayCount;
 
