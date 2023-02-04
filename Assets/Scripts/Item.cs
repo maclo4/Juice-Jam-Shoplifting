@@ -1,8 +1,5 @@
-﻿using System;
-using System.Threading;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Serialization;
-using UnityEngine.UI;
 
 public class Item : MonoBehaviour
 {
@@ -15,13 +12,16 @@ public class Item : MonoBehaviour
     public Sprite image;
     public int duration = 5;
 
+    public GameObject gumTrap;
     public void UseItem(CharacterController characterController)
     {
         switch (type)
         {
+            case ItemType.Gum:
+                PlaceGlue(characterController.transform.position);
+                break;
             default:
                 characterController.maxSpeed += speedBoost;
-                characterController.visionRange += visionBoost;
                 characterController.valueStolen += price;
                 characterController.IncreaseVisionRange(visionBoost);
                 break;
@@ -34,10 +34,14 @@ public class Item : MonoBehaviour
         {
             default:
                 characterController.maxSpeed -= speedBoost;
-                characterController.visionRange -= visionBoost;
                 characterController.valueStolen -= price;
-                characterController.IncreaseVisionRange(visionBoost);
+                characterController.IncreaseVisionRange(-visionBoost);
                 break;
         }
+    }
+
+    private void PlaceGlue(Vector3 spawnLocation)
+    {
+        Instantiate(gumTrap, spawnLocation, Quaternion.identity);
     }
 }

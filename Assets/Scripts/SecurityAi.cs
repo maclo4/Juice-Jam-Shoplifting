@@ -44,6 +44,9 @@ public class SecurityAi : MonoBehaviour
     //Current state of the security guard
     private SecurityStates state;
     private static readonly int Scanning = Animator.StringToHash("Scanning");
+    public bool trapColliding;
+    private float resetWalkSpeed;
+    private float resetChaseSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -56,6 +59,8 @@ public class SecurityAi : MonoBehaviour
         SetRandomPath();
         InvokeRepeating("UpdatePathToPlayer", 0f, .5f);
         state = SecurityStates.Walking;
+        resetChaseSpeed = chaseSpeed;
+        resetWalkSpeed = walkSpeed;
     }
 
     void SetRandomPath()
@@ -348,5 +353,18 @@ public class SecurityAi : MonoBehaviour
         currentWaypoint = 0;
         
         chaseCoroutineRunning = false;
+    }
+
+    public void EnterTrap(float walkSlowdown, float chaseSlowdown)
+    {
+        trapColliding = true;
+        chaseSpeed -= chaseSlowdown;
+        walkSpeed -= walkSlowdown;
+    }
+    public void ExitTrap(float walkSlowdown, float chaseSlowdown)
+    {        
+        trapColliding = false;
+        chaseSpeed += chaseSlowdown;
+        walkSpeed += walkSlowdown;
     }
 }

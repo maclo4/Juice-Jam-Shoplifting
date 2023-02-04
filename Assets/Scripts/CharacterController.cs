@@ -17,6 +17,7 @@ public class CharacterController : MonoBehaviour
     private bool caught;
     public CutsceneManager cutsceneManager;
     public NpcManager npcManager;
+    public HudManager hudManager;
     private Rigidbody2D rb;
     [SerializeField] private FieldOfView fieldOfView;
 
@@ -75,10 +76,10 @@ public class CharacterController : MonoBehaviour
 
         if (Time.timeScale == 0) return;
 
-        if (inputs.useItem == InputStates.WasPressedThisFrame)
+        /*if (inputs.useItem == InputStates.WasPressedThisFrame)
         {
             StartCoroutine("UseItem");
-        }
+        }*/
         //If the analog stick in in the middle
         /*if (rb.velocity.x < .05 && rb.velocity.x > -.05 && rb.velocity.y < .05 && rb.velocity.y > -.05)
         {
@@ -102,11 +103,19 @@ public class CharacterController : MonoBehaviour
         }
     }
 
-    private IEnumerator UseItem()
+    public void UseItem()
+    {
+        if (inventory.Count <= 0) return;
+
+        StartCoroutine(ApplyItemEffect());
+    }
+    private IEnumerator ApplyItemEffect()
     {
         Debug.Log("UseItem!!!");
         var item = inventory.Last();
         item.UseItem(this);
+        inventory.Remove(item);
+        hudManager.UpdateItemImages(inventory);
         
         yield return new WaitForSeconds(item.duration);
         
@@ -118,8 +127,9 @@ public class CharacterController : MonoBehaviour
 
     public void StealItem(Item item)
     {
-        npcManager.TrackItemStolen(item);   
         inventory.Add(item);
+        hudManager.UpdateItemImages(inventory);
+        npcManager.TrackItemStolen(item);   
     }
     public void Caught()
     {
@@ -128,7 +138,8 @@ public class CharacterController : MonoBehaviour
 
     public void IncreaseVisionRange(float increase)
     {
-        fieldOfView.SetViewDistance(fieldOfView.viewDistance += increase); 
-        npcManager.SetVisionDistance(fieldOfView.viewDistance += increase - .5f);
+        visionRange += increase;
+        fieldOfView.SetViewDistance(visionRange); 
+        npcManager.SetVisionDistance(visionRange - .2f);
     }
 }

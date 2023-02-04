@@ -53,13 +53,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06081464e9af4ccab11b31a967afa172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
+  type: 2
   price: 2
   speedBoost: 0
-  stealthBoost: 0
+  visionBoost: 0
   securityChange: 25
   description: 
   image: {fileID: 21300000, guid: cf15a0a7e246905439bd1b3632efff40, type: 3}
+  duration: 5
+  gumTrap: {fileID: 4599445708784758757, guid: 2cd9610d5a2b48c46bb2242135d1b416, type: 3}
 --- !u!61 &3595309013663378364
 BoxCollider2D:
   m_ObjectHideFlags: 0

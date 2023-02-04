@@ -8,7 +8,8 @@ public class ItemSpawner : MonoBehaviour
     public GameObject itemSpawnLocationsPrefab;
 
     public GameObject itemBoxPrefab;
-    public int maxItems = 10;
+    public int maxItems = 15;
+    public int initialItemCount = 10;
     private int spawnListStartSize = 0;
 
     // Start is called before the first frame update
@@ -19,7 +20,7 @@ public class ItemSpawner : MonoBehaviour
         
         InvokeRepeating(nameof(SpawnItem), 0f, 5f);
         
-        for (var i = 0; i < 10; i++)
+        for (var i = 0; i < initialItemCount; i++)
         {
             SpawnItem();
         }

@@ -5,7 +5,7 @@ public enum ItemType
 {
     EnergyDrink,
     Shoes,
-    Glue,
+    Gum,
     Stars
 }
 

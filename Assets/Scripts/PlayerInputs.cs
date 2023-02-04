@@ -10,6 +10,7 @@ namespace DefaultNamespace
         public InputStates interact = InputStates.Raised;
         public InputStates useItem = InputStates.Raised;
         private ShoplifterInputActions inputs;
+        private CharacterController characterController;
 
         private void OnEnable()
         {
@@ -22,6 +23,7 @@ namespace DefaultNamespace
 
         private void Awake()
         {
+            characterController = GetComponent<CharacterController>();
             inputs = new ShoplifterInputActions();
             /*inputs.Controller.Move.performed += OnMove;
             inputs.Controller.Move.canceled += OnMove;*/
@@ -46,10 +48,10 @@ namespace DefaultNamespace
         
         public void OnUseItem(InputAction.CallbackContext context)
         {
-            Debug.Log(context.phase);
-            if (context.action.phase == InputActionPhase.Started)
+            if (context.action.phase == InputActionPhase.Performed && useItem == InputStates.Raised)
             {
                 useItem = InputStates.WasPressedThisFrame;
+                characterController.UseItem();
             }          
             else if (context.phase == InputActionPhase.Performed)
             {
@@ -59,7 +61,7 @@ namespace DefaultNamespace
             {
                 useItem = InputStates.Pressed;
             }*/
-            if (context.action.WasReleasedThisFrame())
+            if (context.phase == InputActionPhase.Canceled)
             {
                 useItem = InputStates.Raised;
             }
