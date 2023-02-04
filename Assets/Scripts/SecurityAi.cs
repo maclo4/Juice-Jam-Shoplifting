@@ -19,8 +19,8 @@ public class SecurityAi : MonoBehaviour
     
     //public float speed = 0f;
     [FormerlySerializedAs("maxSpeed")] 
-    public float walkSpeed = 5f;
-    //public float runSpeed = 8f;
+    public float walkSpeed = 3f;
+    public float chaseSpeed = 5f;
     //public float currVelocity;
     public Vector2 currVelocityV2;
     public float nextWaypointDistance = 1f;
@@ -29,6 +29,8 @@ public class SecurityAi : MonoBehaviour
     public float chaseTime;
     private float currChaseTime;
     private bool chaseCoroutineRunning;
+    public bool playerInLineOfSight;
+    public EnemyVision enemyVision;
 
     private Path path;
 
@@ -50,7 +52,7 @@ public class SecurityAi : MonoBehaviour
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        
+
         SetRandomPath();
         InvokeRepeating("UpdatePathToPlayer", 0f, .5f);
         state = SecurityStates.Walking;
@@ -91,12 +93,13 @@ public class SecurityAi : MonoBehaviour
     
     void Update()
     {
+        enemyVision.SetOrigin(transform.position);
         //If the analog stick in in the middle
         /*if (rb.velocity.x < .05 && rb.velocity.x > -.05 && rb.velocity.y < .05 && rb.velocity.y > -.05)
         {
             animator.SetTrigger("Idle");
         }*/
-        if (state == SecurityStates.Scanning || currentWaypoint >= path.vectorPath.Count) return;
+        if (path == null || state == SecurityStates.Scanning || currentWaypoint >= path.vectorPath.Count) return;
         
         Vector3 directionMoving = ((Vector2) path.vectorPath[currentWaypoint] - rb.position).normalized;;
         string directionString = "";
@@ -214,7 +217,7 @@ public class SecurityAi : MonoBehaviour
         //Get direction to move in
         var direction = ((Vector2) path.vectorPath[currentWaypoint] - rb.position).normalized;
 
-        var force = direction * walkSpeed * Time.deltaTime;
+        var force = direction * chaseSpeed * Time.deltaTime;
         transform.position =  new Vector3(transform.position.x + force.x, transform.position.y + force.y,
             transform.position.z);
         //RotateTowardsNextWayPoint();
@@ -266,20 +269,52 @@ public class SecurityAi : MonoBehaviour
         SetRandomPath();
     }
 
+    public void SetPlayerPathOnSight(Transform playerLocation)
+    {
+        if (state != SecurityStates.Chasing)
+        {
+            playerTransform = playerLocation;
+            state = SecurityStates.Chasing;
+            
+            SetPathToPlayer();
+        }
+        
+        if (state == SecurityStates.Chasing)
+        {
+            currChaseTime = chaseTime;
+        }
+    }
+
+    public void StartChaseTimer()
+    {
+        if (chaseCoroutineRunning) return;
+        StartCoroutine(ChaseTimer());
+    }
+    /*
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag("Player") || state == SecurityStates.Chasing) return;
+        if (!other.CompareTag("Player") || state == SecurityStates.Chasing || !playerInLineOfSight) return;
 
         playerTransform = other.transform;
         state = SecurityStates.Chasing;
         
         SetPathToPlayer();
-    }
+    }*/
 
-    void OnTriggerStay2D(Collider2D other)
+    /*void OnTriggerStay2D(Collider2D other)
     {
+        Debug.Log("On trigger stay ");
         if (!other.CompareTag("Player")) return;
-        if (state == SecurityStates.Chasing)
+        if (state != SecurityStates.Chasing && playerInLineOfSight) return;
+        {
+            Debug.Log("On trigger stay set player path");
+            playerTransform = other.transform;
+            state = SecurityStates.Chasing;
+            
+            SetPathToPlayer();
+        }
+        
+        if (state == SecurityStates.Chasing && playerInLineOfSight)
         {
             currChaseTime = chaseTime;
         }
@@ -289,7 +324,7 @@ public class SecurityAi : MonoBehaviour
         if (!other.CompareTag("Player") || chaseCoroutineRunning) return;
         
         StartCoroutine(ChaseTimer());
-    }
+    }*/
 
     IEnumerator ChaseTimer()
     {
@@ -297,6 +332,8 @@ public class SecurityAi : MonoBehaviour
         
         while (currChaseTime > 0)
         {
+            
+            Debug.Log(currChaseTime);
             //yield on a new YieldInstruction that waits for 5 seconds.
             yield return new WaitForSeconds(.5f);
             currChaseTime -= .5f;

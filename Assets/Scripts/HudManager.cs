@@ -15,7 +15,7 @@ public class HudManager : MonoBehaviour
     void Update()
     {
         speedText.text = "Max speed: " + characterController.maxSpeed;;
-        stealthText.text = "Stealth: " + characterController.stealth;
+        stealthText.text = "Stealth: " + characterController.visionRange;
         moneyText.text = "Value Stolen: $" + characterController.valueStolen;
         alarmLevelText.text = "# Guards: " + npcManager.GetSecurityLevel();
     }

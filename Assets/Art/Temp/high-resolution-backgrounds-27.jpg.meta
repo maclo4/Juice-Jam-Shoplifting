@@ -1,0 +1,4875 @@
+fileFormatVersion: 2
+guid: 2abce7027ee60ce4a9ad2eb3ca4d2608
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1136
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b48549962f75846a62412f73f3433f
+      internalID: 749481570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1136
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc8336058aa6db42b4e37c124bad1f3
+      internalID: 153713248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1136
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a48977ec628eb499f925cbee83cfb3
+      internalID: -1315106620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1136
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b648855300731b43b13d6e27d45c894
+      internalID: 1985582847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1136
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a9c468a418f8f4ca2b322774cd9f83
+      internalID: 966679503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1136
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0ee94ebc48ce5439ddbc5983702c3a
+      internalID: -1332217625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1136
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822a3b7dc42b97d489f2f7f381ee6367
+      internalID: -1173368860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1136
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19e48df12ddaa84d83525a1d013e2a5
+      internalID: 411594271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1136
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fb5e9c2a14e0742b7e73c56c611e9e
+      internalID: -652370782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1136
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc78940e896c1547896aa66f64f479f
+      internalID: 1891679018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_10
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1136
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473678a4a56b8de4a9452f13c77c1d7c
+      internalID: 879672432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_11
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1136
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e10456a2148f2c42a94b379e1be38ea
+      internalID: -578119851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1072
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fe41a59b93cc74cb06768c50df01f2
+      internalID: -1917648266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1072
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98e4a7469d716349bde8e55a93f4176
+      internalID: -1878495211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1072
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46ff9f8396fe3c48bfbfc3aceb1685b
+      internalID: 159761828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_15
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1072
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391bcb598d6a09a468b49379334f12bb
+      internalID: -577674862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1072
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b629aa6296cc3234d834a3e048e4752f
+      internalID: -286812573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_17
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1072
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee91fa69a12976c40bbfde00a9f0af49
+      internalID: -681266522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_18
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1072
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de11ceb07dce2749b71ce67527650ef
+      internalID: -112946933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_19
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1072
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdf8b79c3887b0478321fb6d5fd17c6
+      internalID: 1710363232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_20
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1072
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee62b6b96d49d8d40b3b2f7f4fd9d3a6
+      internalID: -1397857980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_21
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1072
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048400f3f49f22d4eba9409472fb335d
+      internalID: 827619454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1072
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a92b3721467f242870f477243a6a34
+      internalID: -338187916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_23
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1072
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7572b261090b4ae4dbe59034843889bf
+      internalID: -1371658414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffe1165845b8194195d44db1d63aac4
+      internalID: 1194473380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1008
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7f7cc098ae4ae49b0246e9272c30c1
+      internalID: 190041835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_26
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1008
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb6a8a99e909d34eba1da5e6adae05b
+      internalID: 2055478083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_27
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1008
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064eeb0186260d341afc46c6c1345ad2
+      internalID: -59387095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_28
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1008
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc54b2c455fd294883b711c7f7b7aad
+      internalID: -1292245312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_29
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1008
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a96efaeff3d54469b3cccd818c1562
+      internalID: -803070056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_30
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1008
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d53e2a57ebd58847949e62b473a59d3
+      internalID: -1224048363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_31
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1008
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f95e86f9009ca47a14f627c1610767
+      internalID: 2047187205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_32
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1008
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6b4b2bd173b7d47b772ef53d942249
+      internalID: 1730936068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_33
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1008
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e929b6f53c242fa4eadc4c4ed36ebba8
+      internalID: -967612962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_34
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1008
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8088fd4caba2ba44aada85353fefd34e
+      internalID: 756551923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_35
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1008
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0511790a85cb384995d15e63e034634
+      internalID: 261018866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e7830e75aa56a4eb30ffd721b499ee
+      internalID: -344524512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_37
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 944
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260ead4ab36cb91449ce70d133a104a0
+      internalID: -238199114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_38
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 944
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b445b94a4f8ed9c4bba47cbb55ebfcda
+      internalID: -1598384607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_39
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 944
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7406f15d5453256419e110f86b04d1d0
+      internalID: -214680483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_40
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 944
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80d1242aaef5214db7617b3691f5ab0
+      internalID: -795939910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_41
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 944
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07723c4777101f46917b5e0f6cd0272
+      internalID: 1239632202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_42
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 944
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1ad80a9ffbec145a1b75cfe4c86e79
+      internalID: 1062029504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_43
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 944
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4db5b82903790479521b23e314e7c6
+      internalID: -1746799724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_44
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 944
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3677234ee8b4745b9cc9ba87f0547a
+      internalID: -1339770553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_45
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 944
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6e4b0371fe72045832e78e801c8ce2
+      internalID: -66928750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_46
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 944
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bd011614534cc4d8af5837f4a18a82
+      internalID: -1471362242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_47
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 944
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be10cb176d637a54297e39f56d9739e7
+      internalID: 775208797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c9832998e01eb47a527b60bc7d825c
+      internalID: -576969748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_49
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 880
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d308ccba6b4d34abd3f03841ec19d7
+      internalID: 1109924064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_50
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 880
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e94804ec78fa947865b15a0d59250b
+      internalID: -436456575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_51
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 880
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e8314cf6e83354e9a8a881499edf6e
+      internalID: 62502999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_52
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 880
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12636cbcaa10c5946a59f192de6da8ae
+      internalID: 63888052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_53
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 880
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a16146fb50f72d4b9ab9c19ef533d82
+      internalID: -1406946212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_54
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 880
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b734fbc17e107274d8aae78495ff0d42
+      internalID: -691239256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_55
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 880
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8d1fcac93f9534898990149a4a7d00
+      internalID: 1399354414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_56
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 880
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77381a2b6175ed418e2001d84fc4868
+      internalID: -1104612921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_57
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 880
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65324643fd8b05f41a4dddf668d0e851
+      internalID: -2016137414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_58
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 880
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a910c17f67c03004fb248f18bb230ef7
+      internalID: 919472596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_59
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 880
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130131f19fdf7f24b9607ddcb6040a4e
+      internalID: 1100830984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226e16434375ed54f8d2f0957c587272
+      internalID: -610813150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_61
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 816
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50dcba39053484489e85f991065fa99
+      internalID: 263747023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_62
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 816
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bd83f85c134d44eab69a76e1cd8b87
+      internalID: -1267317755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_63
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 816
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95b023ea00295442b71d606b8b27f16
+      internalID: 1426557866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_64
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 816
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd84ab4406b277641992cee023125578
+      internalID: -1939420856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_65
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 816
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d2db96c0c82b34d8c9be00e3662519
+      internalID: 1857711733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_66
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 816
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8725dd52a28db984cb8a1082cc181278
+      internalID: 2096533874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_67
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 816
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505152604de2189438cb2f79a1061e5b
+      internalID: 2093479408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_68
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 816
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae5bc9ab8e850a40b5dc76475dc76e2
+      internalID: -2016936195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_69
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 816
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7daee6ea87bac4b9ae57a0b54a05f4
+      internalID: -1187657325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_70
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 816
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a132cf6dc6fe5ff4b8e6ef3ccd839ca2
+      internalID: 1762228885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_71
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 816
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f82d87af0f3f3e48a4734f7b20364d5
+      internalID: -1355382736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 752
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f19e17b5c22704f9e8ea09d8d802e0
+      internalID: -1061023993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_73
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 752
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e384daf07ae26c840a5f7f259663a4be
+      internalID: 1906820384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_74
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 752
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5011c343f698f0c4ab4a160bb4f8bd7b
+      internalID: 1522122295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_75
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 752
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86aed990e7bb9f45b4f520dfba2f7b6
+      internalID: -53500740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_76
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 752
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eaf25f23b8b7bf40aac591b654f58d1
+      internalID: 681703136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_77
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 752
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5e7d02bb641f04e9d1e00c0717be26
+      internalID: 1050675453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_78
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 752
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2986d8e9b23f3bd47b6d4891717b6e0c
+      internalID: -1153906907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_79
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 752
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cb6adc05385b542b1c388b78b6e838
+      internalID: -1732214824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_80
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 752
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a4d3149cdf7b749a85acd3e104b336
+      internalID: -979633438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_81
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 752
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9925fafe6285b4d82adf69bb88e3c9
+      internalID: 1451967358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_82
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 752
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d7a5d87d6cf0b489737b173aefc70d
+      internalID: -1006432938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_83
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 752
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3798224d8fe6c254aac136e029e0e273
+      internalID: -801791705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 688
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddcf64a185e3c24bb73d5a30a47fd12
+      internalID: -2084464369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_85
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 688
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d40c93131693134d950f730b05c6aad
+      internalID: 1275704185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_86
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 688
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364b15b9e573be442aa0cf498707d6d4
+      internalID: -133446653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_87
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 688
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df6c4369a74e404e9b6376eb59e60ec
+      internalID: -1053844162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_88
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 688
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8f7a22392cc37428cd3b920d9ca4d8
+      internalID: 1643670146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_89
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 688
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a52e150de79e5d40806babbff67ccfd
+      internalID: 538750762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_90
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 688
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3b9fe4a9aa0834e8ccbabcc8c4f1ff
+      internalID: 726205033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_91
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 688
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014b578b7071f584db543e14717b1fa3
+      internalID: 1886947273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_92
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 688
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5742dbcd6d9434984ad21151c4b783
+      internalID: -1025593901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_93
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 688
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688bf72fb95fdc443a1c2590b43d1d8a
+      internalID: -2099282047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_94
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 688
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019fad12d4978914eab754f5b28243b7
+      internalID: 1613205824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_95
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 688
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a8e298312c8f24cbda5d6b51191444
+      internalID: 410577663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0419f39afff635b4980991650a8bea26
+      internalID: -955004974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_97
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 624
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b829351e32e121649b636524649a1892
+      internalID: -1354342521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_98
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 624
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f75f4df855d3b345a92641ddd79c24d
+      internalID: -584060311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_99
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 624
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ca508d543400941a2c96714ef5436d
+      internalID: 765930785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_100
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 624
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f17ea90cc5728346adddb03fccb95d8
+      internalID: 1810424682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_101
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 624
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193ef735a25838a4b9b2039a73d40189
+      internalID: 978666599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_102
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 624
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3fd6bbd54ead54eb952d08748184c0
+      internalID: 475526284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_103
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 624
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7941eb5d3a582541bb9d66725f80af9
+      internalID: 232836349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_104
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 624
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a38a517324e5647968c672223222c8
+      internalID: -1526028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_105
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 624
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a8083d62f971440950c377151deab2
+      internalID: -1676427749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_106
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 624
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1508d8b3d26230478b49eebe1f37b5f
+      internalID: -2049016000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_107
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 624
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3003cfcdbe35343b3dec3fd9e2df30
+      internalID: -2102017948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51baa93406f56e4194d7379a82ec3dc
+      internalID: -368377928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_109
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 560
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fac6445d033d34499854f50dbf90fd0
+      internalID: -1334639427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_110
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 560
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91125da1f3e57b428fd889c4f80b3de
+      internalID: -118756714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_111
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 560
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7746ee39cbf85428bcbf66dab25c40
+      internalID: 754353354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_112
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 560
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0c1e9a294870e4e8773d53c45a8b96
+      internalID: -983847641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_113
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 560
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990085fca834c584fb7826588a7f9d4f
+      internalID: -298548188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_114
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 560
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f548f4e9093d403448e50cdb74af959b
+      internalID: 1963501120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_115
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 560
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dc209fa6fc1a149b5d6af28f82a12a
+      internalID: 895185176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_116
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 560
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3e101325edf9b42893e916bdcd254d
+      internalID: 134665945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_117
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 560
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca72016e51d8951458d78efc9499a05f
+      internalID: 1191825177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_118
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 560
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562acb6739311844bb649110b18a4d38
+      internalID: -2016044058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_119
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 560
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debe522dd87c5ca48870462a9a0add14
+      internalID: 1040703269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b535e28b65c33479ddbf64fd088372
+      internalID: -448442702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_121
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 496
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf1a0a4e6af2df42937164f42ace5fa
+      internalID: 1940730466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_122
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 496
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fcdcd721cfa7943b43da69bbefe51d
+      internalID: -232667531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_123
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 496
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e3946a67e09d746860eb1dd2afd5ac
+      internalID: 2109594601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_124
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 496
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86730a4c516378141b00c01ab450de71
+      internalID: -677312093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_125
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 496
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c66905b29d26eb4c87d6f35f28a4e46
+      internalID: 117759356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_126
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 496
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaf42570fe251544a790d68af23bfda
+      internalID: -1457389991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_127
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 496
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0466da6d30fc3a74eba4fb15ae0ed065
+      internalID: -813128209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_128
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 496
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d058bdf84ad16941bd978fc9af6a4e6
+      internalID: 70212941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_129
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 496
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f2ae18a514f4c4588404eb28d6275b
+      internalID: -1413453408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_130
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 496
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14463aa37e04fe542abe3e8dd9f4d14e
+      internalID: -1503502563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_131
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 496
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ecd0bba0521a9428262055aa243445
+      internalID: -797045930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e777a5c063b388b43a684d7cab4da943
+      internalID: 1196806189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_133
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 432
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da750c091c6f97418f8a353cee887f2
+      internalID: 2046849699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_134
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 432
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024173cedc0a1ba42b8e715f31e95078
+      internalID: 1750652396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_135
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 432
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13a1760d2d908b41a17c10db4b84b3e
+      internalID: 876181857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_136
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 432
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96fb004a7b9129428e8da8ad670c8b3
+      internalID: -191057046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_137
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 432
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd715fc04e3029c479cfa2b85fe223b2
+      internalID: 1820106713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_138
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 432
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1298f69d6a90ad246989e9339bbfe9ad
+      internalID: -1124439684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_139
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 432
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f4afc52cf49714abe9ae9fb1ee31fa
+      internalID: -275785719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_140
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 432
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c540709ea2ad7f4daf3e0cb59ac56be
+      internalID: 70826339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_141
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 432
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c5ed8ac1fab4a44be84fa0ad0bd243
+      internalID: -442951709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_142
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 432
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c90dce0841b3c419a120a51d66669d
+      internalID: -603479506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_143
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 432
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc26d3cd145ffa4c85123aa55d0bb4e
+      internalID: -1635865150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdec89837517bf41867de738bdb1cf6
+      internalID: -1012087129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_145
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 368
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72463f453c9a704ab77e97472ec3e9b
+      internalID: 158753354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_146
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 368
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68928fd0e69349c498777faeb4216e16
+      internalID: -1445362082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_147
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 368
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0e42324e9a1bd4c9bd8bda7268b270
+      internalID: -1647308147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_148
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 368
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e32635534c3c4439f1e73ba56dd8a7
+      internalID: 239674700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_149
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 368
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e703620aa9a7c7c4c81f61a07abd3eb1
+      internalID: 318242535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_150
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 368
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6920d458624f87042b2a98fbad2d385a
+      internalID: 883170616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_151
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 368
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc21d5d00372c149845fb4b56a09363
+      internalID: -105522892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_152
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 368
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ba7d5a09a33fd47aeb2d3625c3bd58
+      internalID: 1654204754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_153
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 368
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5866db9675dfa9144aab0364c4bf2d66
+      internalID: -83801538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_154
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 368
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ada896c5c7dc74ca03bbf39fb97514
+      internalID: 1150529870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_155
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 368
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63890b4e01c81db47ba2db2926255d66
+      internalID: -1574854129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6e4cd7036e2934cabddb77f89ad70d
+      internalID: 591165284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_157
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 304
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4ebf3a42fc5ea48a19586d33badee7
+      internalID: 1381599202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_158
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 304
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1f478ce10f7a847a81c8dafc3b528c
+      internalID: 1988596855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_159
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 304
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e173a84341eb8b4e95c86fb69c4ff33
+      internalID: 156504598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_160
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 304
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040ca0b69a752c147aa60bb7b02df5cd
+      internalID: 2065899585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_161
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 304
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0789142fd98c5cd44ac8e361a13a69b7
+      internalID: 480731155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_162
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 304
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016830190a84edf4293479b8ea008e4c
+      internalID: 1197405204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_163
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 304
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90fb25498872944ebfb4b578c08cd2b
+      internalID: -107762331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_164
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 304
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e9be9deac353e49a32e1830df6ba82
+      internalID: 289695955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_165
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 304
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3f6e5d392b50547b0f60bc2e4ddd36
+      internalID: 251646646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_166
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 304
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92aec87d074cf1e45983b8ce28109d70
+      internalID: -1130978650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_167
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 304
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5952b942a033672448d135ceb8a2d271
+      internalID: -1892985708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0322120d330efb41909637e7254182e
+      internalID: -1348606559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_169
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 240
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67f1278c6d63e04fa5c8c1ed3d1a929
+      internalID: 760722571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_170
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 240
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d546dd833bf15e4fae1679f5ee2221d
+      internalID: -1223155701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_171
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 240
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f695c0e8fe758164ba8345828aef669c
+      internalID: -1099114589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_172
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 240
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee39f4d046d850d49aa44dc00f5c7e06
+      internalID: -1783677577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_173
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 240
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad985ef364677a49ad75da0c81c03ae
+      internalID: -1242726191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_174
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 240
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cca1724f6754648a4a7271db8df5b8
+      internalID: -215762896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_175
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 240
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931d7e2fabf77de479afe1e03adbdf8e
+      internalID: -1644418089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_176
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 240
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0693941d53999f4c859a4d40afe7882
+      internalID: -758972952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_177
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 240
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eab506d448e7e24b89d9230d1619647
+      internalID: -873105842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_178
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 240
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b249f889f3bcc04ebf66275ea79a6b6
+      internalID: 793968507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_179
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 240
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd32be8cfc770f4499a6ba02da3db084
+      internalID: 468387243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569852ac77b507542ac9b836406ef6ed
+      internalID: -1942389944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_181
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 176
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b287b660b16dd964caf384c1a73b3d88
+      internalID: -436019822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_182
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 176
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddaa49d0fd094440a301b89985ced10
+      internalID: -37555308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_183
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 176
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335aa639eb985e146bc3a741237dcdcb
+      internalID: 680702197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_184
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 176
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1478e9a1b56d9c440b72a324a8985c4e
+      internalID: 1185124572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_185
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 176
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0253887dd70fd704e916859f07eee0b6
+      internalID: -1603729653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_186
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 176
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e3c9f29909e0749a4ed64e37553169
+      internalID: 121156143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_187
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 176
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9212e14684f3a4bb90f166fc799ea1
+      internalID: -742910807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_188
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 176
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef49147519fe6c4ca1059af5f59bb26
+      internalID: 2067778313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_189
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 176
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ae48e1f6d461b438f62b31b183750c
+      internalID: 1148766635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_190
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 176
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bd282cf41f46943a906e8590b42244
+      internalID: 1626204938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_191
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 176
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12f3a76e445a264d903c83d7938d51f
+      internalID: -205889597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd8c27acdfab29468a51931ee557d53
+      internalID: 1429300492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_193
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 112
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a42fccd7e119c4787260e62b6d0024
+      internalID: -1292307810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_194
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 112
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bde50eaa5eec145b18bb9bdc20cacf
+      internalID: -795306179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_195
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 112
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dd0cbca4cf3c94dba9128557a411cc
+      internalID: 2128343289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_196
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 112
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94088777ed4f7d8408c56e65db3efafe
+      internalID: -364426210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_197
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 112
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b8e99fe925e7b49a8de85704774db1
+      internalID: -816708339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_198
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 112
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11248c1f4d547d94d98d8ca2c3e57d7e
+      internalID: 746783476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_199
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 112
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5db4a562c26574093eced04dabe86c
+      internalID: 10995742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_200
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 112
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f7b2c0e010f154c9179458856a3254
+      internalID: 1550908011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_201
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 112
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c446f249f8208374292418e0896f521d
+      internalID: 43472121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_202
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 112
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0110aadec94ee4a42a1a9818156b88db
+      internalID: 479427639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_203
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 112
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f0bb15de002cf4ca319fa90ea9490e
+      internalID: -1509692752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_204
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bbb3d92027e12499ffb255bdc60894
+      internalID: 68648044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_205
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 48
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c222e6354dc29124680c19f54341bad6
+      internalID: 1850507714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_206
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 48
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1582db71d61bde54987d589a183e1606
+      internalID: 2121187940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_207
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 48
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff751d0bd8b71a148b69cd40539df6ce
+      internalID: -769213197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_208
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 48
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d402cce74945b4f4d951dcea6f857a68
+      internalID: -945932030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_209
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 48
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2068c32b2a005c468216b08e4caf06b
+      internalID: 752588935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_210
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 48
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb8db68d7a8d924799ef86df178cdf0
+      internalID: -1370011081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_211
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 48
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0067e389e602a4f92e4f9920f64c34
+      internalID: 640270392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_212
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 48
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdca3a1805670d540b52f9e042a8cd60
+      internalID: 1395127987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_213
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 48
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408c4e45c97581c45af7e5dd4f41943b
+      internalID: -93505731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_214
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 48
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b59adb18081654484a79f2ef721923
+      internalID: -353160915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: high-resolution-backgrounds-27_215
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 48
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3eac01cd30f0b4c8427a29ba70536a
+      internalID: -797314356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      high-resolution-backgrounds-27_36: -344524512
+      high-resolution-backgrounds-27_193: -1292307810
+      high-resolution-backgrounds-27_60: -610813150
+      high-resolution-backgrounds-27_65: 1857711733
+      high-resolution-backgrounds-27_185: -1603729653
+      high-resolution-backgrounds-27_213: -93505731
+      high-resolution-backgrounds-27_127: -813128209
+      high-resolution-backgrounds-27_208: -945932030
+      high-resolution-backgrounds-27_143: -1635865150
+      high-resolution-backgrounds-27_212: 1395127987
+      high-resolution-backgrounds-27_132: 1196806189
+      high-resolution-backgrounds-27_174: -215762896
+      high-resolution-backgrounds-27_87: -1053844162
+      high-resolution-backgrounds-27_84: -2084464369
+      high-resolution-backgrounds-27_165: 251646646
+      high-resolution-backgrounds-27_175: -1644418089
+      high-resolution-backgrounds-27_11: -578119851
+      high-resolution-backgrounds-27_136: -191057046
+      high-resolution-backgrounds-27_124: -677312093
+      high-resolution-backgrounds-27_189: 1148766635
+      high-resolution-backgrounds-27_69: -1187657325
+      high-resolution-backgrounds-27_1: 153713248
+      high-resolution-backgrounds-27_178: 793968507
+      high-resolution-backgrounds-27_204: 68648044
+      high-resolution-backgrounds-27_98: -584060311
+      high-resolution-backgrounds-27_161: 480731155
+      high-resolution-backgrounds-27_140: 70826339
+      high-resolution-backgrounds-27_3: 1985582847
+      high-resolution-backgrounds-27_64: -1939420856
+      high-resolution-backgrounds-27_94: 1613205824
+      high-resolution-backgrounds-27_20: -1397857980
+      high-resolution-backgrounds-27_102: 475526284
+      high-resolution-backgrounds-27_191: -205889597
+      high-resolution-backgrounds-27_137: 1820106713
+      high-resolution-backgrounds-27_139: -275785719
+      high-resolution-backgrounds-27_210: -1370011081
+      high-resolution-backgrounds-27_117: 1191825177
+      high-resolution-backgrounds-27_42: 1062029504
+      high-resolution-backgrounds-27_157: 1381599202
+      high-resolution-backgrounds-27_25: 190041835
+      high-resolution-backgrounds-27_52: 63888052
+      high-resolution-backgrounds-27_55: 1399354414
+      high-resolution-backgrounds-27_158: 1988596855
+      high-resolution-backgrounds-27_77: 1050675453
+      high-resolution-backgrounds-27_95: 410577663
+      high-resolution-backgrounds-27_142: -603479506
+      high-resolution-backgrounds-27_180: -1942389944
+      high-resolution-backgrounds-27_159: 156504598
+      high-resolution-backgrounds-27_214: -353160915
+      high-resolution-backgrounds-27_97: -1354342521
+      high-resolution-backgrounds-27_15: -577674862
+      high-resolution-backgrounds-27_128: 70212941
+      high-resolution-backgrounds-27_70: 1762228885
+      high-resolution-backgrounds-27_109: -1334639427
+      high-resolution-backgrounds-27_99: 765930785
+      high-resolution-backgrounds-27_163: -107762331
+      high-resolution-backgrounds-27_2: -1315106620
+      high-resolution-backgrounds-27_215: -797314356
+      high-resolution-backgrounds-27_6: -1173368860
+      high-resolution-backgrounds-27_194: -795306179
+      high-resolution-backgrounds-27_80: -979633438
+      high-resolution-backgrounds-27_211: 640270392
+      high-resolution-backgrounds-27_105: -1676427749
+      high-resolution-backgrounds-27_112: -983847641
+      high-resolution-backgrounds-27_78: -1153906907
+      high-resolution-backgrounds-27_190: 1626204938
+      high-resolution-backgrounds-27_7: 411594271
+      high-resolution-backgrounds-27_82: -1006432938
+      high-resolution-backgrounds-27_22: -338187916
+      high-resolution-backgrounds-27_177: -873105842
+      high-resolution-backgrounds-27_12: -1917648266
+      high-resolution-backgrounds-27_141: -442951709
+      high-resolution-backgrounds-27_59: 1100830984
+      high-resolution-backgrounds-27_39: -214680483
+      high-resolution-backgrounds-27_119: 1040703269
+      high-resolution-backgrounds-27_18: -112946933
+      high-resolution-backgrounds-27_48: -576969748
+      high-resolution-backgrounds-27_104: -1526028
+      high-resolution-backgrounds-27_148: 239674700
+      high-resolution-backgrounds-27_62: -1267317755
+      high-resolution-backgrounds-27_135: 876181857
+      high-resolution-backgrounds-27_37: -238199114
+      high-resolution-backgrounds-27_156: 591165284
+      high-resolution-backgrounds-27_21: 827619454
+      high-resolution-backgrounds-27_130: -1503502563
+      high-resolution-backgrounds-27_40: -795939910
+      high-resolution-backgrounds-27_133: 2046849699
+      high-resolution-backgrounds-27_201: 43472121
+      high-resolution-backgrounds-27_32: 1730936068
+      high-resolution-backgrounds-27_123: 2109594601
+      high-resolution-backgrounds-27_126: -1457389991
+      high-resolution-backgrounds-27_56: -1104612921
+      high-resolution-backgrounds-27_79: -1732214824
+      high-resolution-backgrounds-27_146: -1445362082
+      high-resolution-backgrounds-27_13: -1878495211
+      high-resolution-backgrounds-27_75: -53500740
+      high-resolution-backgrounds-27_63: 1426557866
+      high-resolution-backgrounds-27_113: -298548188
+      high-resolution-backgrounds-27_115: 895185176
+      high-resolution-backgrounds-27_45: -66928750
+      high-resolution-backgrounds-27_186: 121156143
+      high-resolution-backgrounds-27_71: -1355382736
+      high-resolution-backgrounds-27_74: 1522122295
+      high-resolution-backgrounds-27_199: 10995742
+      high-resolution-backgrounds-27_144: -1012087129
+      high-resolution-backgrounds-27_209: 752588935
+      high-resolution-backgrounds-27_170: -1223155701
+      high-resolution-backgrounds-27_29: -803070056
+      high-resolution-backgrounds-27_149: 318242535
+      high-resolution-backgrounds-27_147: -1647308147
+      high-resolution-backgrounds-27_4: 966679503
+      high-resolution-backgrounds-27_28: -1292245312
+      high-resolution-backgrounds-27_17: -681266522
+      high-resolution-backgrounds-27_41: 1239632202
+      high-resolution-backgrounds-27_150: 883170616
+      high-resolution-backgrounds-27_53: -1406946212
+      high-resolution-backgrounds-27_86: -133446653
+      high-resolution-backgrounds-27_205: 1850507714
+      high-resolution-backgrounds-27_110: -118756714
+      high-resolution-backgrounds-27_169: 760722571
+      high-resolution-backgrounds-27_26: 2055478083
+      high-resolution-backgrounds-27_111: 754353354
+      high-resolution-backgrounds-27_101: 978666599
+      high-resolution-backgrounds-27_0: 749481570
+      high-resolution-backgrounds-27_44: -1339770553
+      high-resolution-backgrounds-27_72: -1061023993
+      high-resolution-backgrounds-27_106: -2049016000
+      high-resolution-backgrounds-27_203: -1509692752
+      high-resolution-backgrounds-27_50: -436456575
+      high-resolution-backgrounds-27_85: 1275704185
+      high-resolution-backgrounds-27_9: 1891679018
+      high-resolution-backgrounds-27_58: 919472596
+      high-resolution-backgrounds-27_91: 1886947273
+      high-resolution-backgrounds-27_68: -2016936195
+      high-resolution-backgrounds-27_114: 1963501120
+      high-resolution-backgrounds-27_51: 62502999
+      high-resolution-backgrounds-27_88: 1643670146
+      high-resolution-backgrounds-27_188: 2067778313
+      high-resolution-backgrounds-27_16: -286812573
+      high-resolution-backgrounds-27_197: -816708339
+      high-resolution-backgrounds-27_30: -1224048363
+      high-resolution-backgrounds-27_202: 479427639
+      high-resolution-backgrounds-27_118: -2016044058
+      high-resolution-backgrounds-27_90: 726205033
+      high-resolution-backgrounds-27_138: -1124439684
+      high-resolution-backgrounds-27_116: 134665945
+      high-resolution-backgrounds-27_24: 1194473380
+      high-resolution-backgrounds-27_164: 289695955
+      high-resolution-backgrounds-27_122: -232667531
+      high-resolution-backgrounds-27_187: -742910807
+      high-resolution-backgrounds-27_35: 261018866
+      high-resolution-backgrounds-27_89: 538750762
+      high-resolution-backgrounds-27_173: -1242726191
+      high-resolution-backgrounds-27_195: 2128343289
+      high-resolution-backgrounds-27_129: -1413453408
+      high-resolution-backgrounds-27_83: -801791705
+      high-resolution-backgrounds-27_49: 1109924064
+      high-resolution-backgrounds-27_196: -364426210
+      high-resolution-backgrounds-27_92: -1025593901
+      high-resolution-backgrounds-27_131: -797045930
+      high-resolution-backgrounds-27_153: -83801538
+      high-resolution-backgrounds-27_23: -1371658414
+      high-resolution-backgrounds-27_154: 1150529870
+      high-resolution-backgrounds-27_207: -769213197
+      high-resolution-backgrounds-27_152: 1654204754
+      high-resolution-backgrounds-27_10: 879672432
+      high-resolution-backgrounds-27_81: 1451967358
+      high-resolution-backgrounds-27_120: -448442702
+      high-resolution-backgrounds-27_151: -105522892
+      high-resolution-backgrounds-27_47: 775208797
+      high-resolution-backgrounds-27_66: 2096533874
+      high-resolution-backgrounds-27_206: 2121187940
+      high-resolution-backgrounds-27_167: -1892985708
+      high-resolution-backgrounds-27_46: -1471362242
+      high-resolution-backgrounds-27_166: -1130978650
+      high-resolution-backgrounds-27_155: -1574854129
+      high-resolution-backgrounds-27_179: 468387243
+      high-resolution-backgrounds-27_14: 159761828
+      high-resolution-backgrounds-27_57: -2016137414
+      high-resolution-backgrounds-27_19: 1710363232
+      high-resolution-backgrounds-27_183: 680702197
+      high-resolution-backgrounds-27_93: -2099282047
+      high-resolution-backgrounds-27_145: 158753354
+      high-resolution-backgrounds-27_67: 2093479408
+      high-resolution-backgrounds-27_176: -758972952
+      high-resolution-backgrounds-27_184: 1185124572
+      high-resolution-backgrounds-27_103: 232836349
+      high-resolution-backgrounds-27_27: -59387095
+      high-resolution-backgrounds-27_73: 1906820384
+      high-resolution-backgrounds-27_76: 681703136
+      high-resolution-backgrounds-27_38: -1598384607
+      high-resolution-backgrounds-27_34: 756551923
+      high-resolution-backgrounds-27_172: -1783677577
+      high-resolution-backgrounds-27_31: 2047187205
+      high-resolution-backgrounds-27_8: -652370782
+      high-resolution-backgrounds-27_108: -368377928
+      high-resolution-backgrounds-27_107: -2102017948
+      high-resolution-backgrounds-27_96: -955004974
+      high-resolution-backgrounds-27_198: 746783476
+      high-resolution-backgrounds-27_125: 117759356
+      high-resolution-backgrounds-27_181: -436019822
+      high-resolution-backgrounds-27_200: 1550908011
+      high-resolution-backgrounds-27_192: 1429300492
+      high-resolution-backgrounds-27_121: 1940730466
+      high-resolution-backgrounds-27_54: -691239256
+      high-resolution-backgrounds-27_160: 2065899585
+      high-resolution-backgrounds-27_134: 1750652396
+      high-resolution-backgrounds-27_100: 1810424682
+      high-resolution-backgrounds-27_171: -1099114589
+      high-resolution-backgrounds-27_43: -1746799724
+      high-resolution-backgrounds-27_182: -37555308
+      high-resolution-backgrounds-27_168: -1348606559
+      high-resolution-backgrounds-27_61: 263747023
+      high-resolution-backgrounds-27_33: -967612962
+      high-resolution-backgrounds-27_5: -1332217625
+      high-resolution-backgrounds-27_162: 1197405204
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

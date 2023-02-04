@@ -8,6 +8,7 @@ namespace DefaultNamespace
     {
         public Vector2 move;
         public InputStates interact = InputStates.Raised;
+        public InputStates useItem = InputStates.Raised;
         private ShoplifterInputActions inputs;
 
         private void OnEnable()
@@ -42,15 +43,32 @@ namespace DefaultNamespace
                 interact = InputStates.Raised;
             }
         }
+        
+        public void OnUseItem(InputAction.CallbackContext context)
+        {
+            Debug.Log(context.phase);
+            if (context.action.phase == InputActionPhase.Started)
+            {
+                useItem = InputStates.WasPressedThisFrame;
+            }          
+            else if (context.phase == InputActionPhase.Performed)
+            {
+                useItem = InputStates.Pressed;
+            }/*
+            else if (context.action.IsPressed())
+            {
+                useItem = InputStates.Pressed;
+            }*/
+            if (context.action.WasReleasedThisFrame())
+            {
+                useItem = InputStates.Raised;
+            }
+        }
 
         public void OnMove(InputAction.CallbackContext context)
         {
             move = context.ReadValue<Vector2>();
         }
 
-        private void Update()
-        {
-            
-        }
     }
 }

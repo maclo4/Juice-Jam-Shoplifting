@@ -5,7 +5,8 @@ public enum ItemType
 {
     EnergyDrink,
     Shoes,
-    Glue
+    Glue,
+    Stars
 }
 
 [RequireComponent(typeof(Item))]
@@ -18,6 +19,7 @@ public class ItemManager : MonoBehaviour
         item = GetComponent<Item>();
     }
 
+    /*
     private void OnTriggerStay2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
@@ -41,10 +43,12 @@ public class ItemManager : MonoBehaviour
         if (characterController.inputs.interact == InputStates.WasPressedThisFrame)
         {
             characterController.maxSpeed += item.speedBoost;
-            characterController.stealth += item.stealthBoost;
             characterController.valueStolen += item.price;
+            
+            characterController.IncreaseVisionRange(item.visionBoost);
             characterController.StealItem(item);
+            
             gameObject.SetActive(false);
         }
-    }
+    }*/
 }

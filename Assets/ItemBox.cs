@@ -7,17 +7,24 @@ using Random = UnityEngine.Random;
 
 public class ItemBox : MonoBehaviour
 {
-    private Item item1, item2;
+    [SerializeField] private Item item1, item2;
     public List<GameObject> itemPrefabs;
     private CharacterController characterController;
+    private Animator animator;
     public Canvas itemCardCanvas;
     public TMP_Text item1Name, item1Description, item1Stats;
     public TMP_Text item2Name, item2Description, item2Stats;
+    public Image item1Image, item2Image;
     public Button firstButton;
     public float buttonHoldTime;
     private float startTime;
+    private static readonly int Load = Animator.StringToHash("Load");
+    
+    public ItemSpawner itemSpawner;
+
     private void Start()
     {
+        animator = GetComponent<Animator>();
         item1 = itemPrefabs[Random.Range(0, itemPrefabs.Count)].GetComponent<Item>();
         item2 = itemPrefabs[Random.Range(0, itemPrefabs.Count)].GetComponent<Item>();
         
@@ -27,21 +34,20 @@ public class ItemBox : MonoBehaviour
 
     public void SelectLeftItem()
     {
-        UseItem(item1);
+        AddItemToInventory(item1);
         Time.timeScale = 1;
         gameObject.SetActive(false);
     }
     public void SelectRightItem()
     {
-        UseItem(item2);
+        AddItemToInventory(item2);
         Time.timeScale = 1;
         gameObject.SetActive(false);
     }
-    private void UseItem(Item item)
+
+    private void AddItemToInventory(Item item)
     {
-        characterController.maxSpeed += item.speedBoost;
-        characterController.stealth += item.stealthBoost;
-        characterController.valueStolen += item.price;
+        itemSpawner.AddSpawnLocation(transform);
         characterController.StealItem(item);
     }
     private void OnTriggerEnter2D(Collider2D other)
@@ -51,29 +57,31 @@ public class ItemBox : MonoBehaviour
         characterController = other.gameObject.GetComponent<CharacterController>();
         if (characterController.inputs.interact == InputStates.WasPressedThisFrame)
         {
-            startTime = Time.time; 
-            return;
+            animator.SetBool(Load, false);
         }
     }
 
     private void OnTriggerStay2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
-        
-        //var characterController = other.gameObject.GetComponent<CharacterController>();
 
         if (characterController.inputs.interact != InputStates.WasPressedThisFrame)
         {
-            startTime = Time.time; 
+            animator.SetBool(Load, false);
             return;
         }
-        
-        if (Time.time - startTime < buttonHoldTime) return;
-        
+        animator.SetBool(Load, true);
+    }
+
+    public void DisplayItems()
+    {
         Time.timeScale = 0;
         itemCardCanvas.gameObject.SetActive(true);
         firstButton.Select();
 
+        item1Image.sprite = item1.image;
+        item2Image.sprite = item2.image;
+        
         item1Name.text = item1.name;
         item2Name.text = item2.name;
         
@@ -84,8 +92,8 @@ public class ItemBox : MonoBehaviour
         item2Stats.text += "Speed Boost: " + item2.speedBoost + System.Environment.NewLine;
         
         
-        item1Stats.text += "Stealth Boost: " + item1.stealthBoost + System.Environment.NewLine;
-        item2Stats.text += "Stealth Boost: " + item2.stealthBoost + System.Environment.NewLine;
+        item1Stats.text += "Stealth Boost: " + item1.visionBoost + System.Environment.NewLine;
+        item2Stats.text += "Stealth Boost: " + item2.visionBoost + System.Environment.NewLine;
         
         
         item1Stats.text += "Security: " + item1.securityChange + System.Environment.NewLine;

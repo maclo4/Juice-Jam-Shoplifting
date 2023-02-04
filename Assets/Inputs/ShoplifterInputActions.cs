@@ -44,6 +44,15 @@ public partial class @ShoplifterInputActions : IInputActionCollection2, IDisposa
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""UseItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""c005944e-275b-4614-9c20-184a78b0f9db"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -145,6 +154,50 @@ public partial class @ShoplifterInputActions : IInputActionCollection2, IDisposa
                     ""action"": ""Interact"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f8db9b17-b82c-48aa-9c4b-028f583cf4a1"",
+                    ""path"": ""<Keyboard>/z"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UseItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1489000e-feb1-45b3-a3e3-557f8c18a37d"",
+                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UseItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""fc2390d2-6805-494b-8b14-999e78a5f626"",
+                    ""path"": ""<Keyboard>/x"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UseItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""466a55fb-1dbf-4419-9700-fd12e006240a"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UseItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -155,6 +208,7 @@ public partial class @ShoplifterInputActions : IInputActionCollection2, IDisposa
         m_Controller = asset.FindActionMap("Controller", throwIfNotFound: true);
         m_Controller_Move = m_Controller.FindAction("Move", throwIfNotFound: true);
         m_Controller_Interact = m_Controller.FindAction("Interact", throwIfNotFound: true);
+        m_Controller_UseItem = m_Controller.FindAction("UseItem", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -216,12 +270,14 @@ public partial class @ShoplifterInputActions : IInputActionCollection2, IDisposa
     private IControllerActions m_ControllerActionsCallbackInterface;
     private readonly InputAction m_Controller_Move;
     private readonly InputAction m_Controller_Interact;
+    private readonly InputAction m_Controller_UseItem;
     public struct ControllerActions
     {
         private @ShoplifterInputActions m_Wrapper;
         public ControllerActions(@ShoplifterInputActions wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_Controller_Move;
         public InputAction @Interact => m_Wrapper.m_Controller_Interact;
+        public InputAction @UseItem => m_Wrapper.m_Controller_UseItem;
         public InputActionMap Get() { return m_Wrapper.m_Controller; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -237,6 +293,9 @@ public partial class @ShoplifterInputActions : IInputActionCollection2, IDisposa
                 @Interact.started -= m_Wrapper.m_ControllerActionsCallbackInterface.OnInteract;
                 @Interact.performed -= m_Wrapper.m_ControllerActionsCallbackInterface.OnInteract;
                 @Interact.canceled -= m_Wrapper.m_ControllerActionsCallbackInterface.OnInteract;
+                @UseItem.started -= m_Wrapper.m_ControllerActionsCallbackInterface.OnUseItem;
+                @UseItem.performed -= m_Wrapper.m_ControllerActionsCallbackInterface.OnUseItem;
+                @UseItem.canceled -= m_Wrapper.m_ControllerActionsCallbackInterface.OnUseItem;
             }
             m_Wrapper.m_ControllerActionsCallbackInterface = instance;
             if (instance != null)
@@ -247,6 +306,9 @@ public partial class @ShoplifterInputActions : IInputActionCollection2, IDisposa
                 @Interact.started += instance.OnInteract;
                 @Interact.performed += instance.OnInteract;
                 @Interact.canceled += instance.OnInteract;
+                @UseItem.started += instance.OnUseItem;
+                @UseItem.performed += instance.OnUseItem;
+                @UseItem.canceled += instance.OnUseItem;
             }
         }
     }
@@ -255,5 +317,6 @@ public partial class @ShoplifterInputActions : IInputActionCollection2, IDisposa
     {
         void OnMove(InputAction.CallbackContext context);
         void OnInteract(InputAction.CallbackContext context);
+        void OnUseItem(InputAction.CallbackContext context);
     }
 }
