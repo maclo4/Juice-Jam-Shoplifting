@@ -15,6 +15,8 @@ public class CharacterController : MonoBehaviour
     private Animator animator;
     private static readonly int CaughtAnim = Animator.StringToHash("Caught");
     private bool caught;
+    public bool teleporting;
+    private Vector3 teleportDest;
     public CutsceneManager cutsceneManager;
     public NpcManager npcManager;
     public HudManager hudManager;
@@ -22,6 +24,7 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private FieldOfView fieldOfView;
 
     private Vector2 currVelocity;
+    private Vector2 currTeleportVelocity;
     public float decelerationTime;
     public float accelerationTime;
     [FormerlySerializedAs("stealth")] public float visionRange;
@@ -29,6 +32,8 @@ public class CharacterController : MonoBehaviour
     public float valueStolen;
 
     private List<Item> inventory;
+    private static readonly int Teleport = Animator.StringToHash("Teleport");
+    private static readonly int EndTeleport = Animator.StringToHash("EndTeleport");
 
     // Start is called before the first frame update
     private void Start()
@@ -47,6 +52,10 @@ public class CharacterController : MonoBehaviour
         if (caught)
         {
             animator.SetTrigger(CaughtAnim);
+            return;
+        }
+        if (teleporting)
+        {
             return;
         }
         if (inputs.move.magnitude >= .1)
@@ -73,18 +82,14 @@ public class CharacterController : MonoBehaviour
             animator.SetTrigger(CaughtAnim);
             return;
         }
+        if (teleporting)
+        {
+            return;
+        }
 
         if (Time.timeScale == 0) return;
 
-        /*if (inputs.useItem == InputStates.WasPressedThisFrame)
-        {
-            StartCoroutine("UseItem");
-        }*/
-        //If the analog stick in in the middle
-        /*if (rb.velocity.x < .05 && rb.velocity.x > -.05 && rb.velocity.y < .05 && rb.velocity.y > -.05)
-        {
-            animator.SetTrigger("Idle");
-        }*/
+
         if (inputs.move.x < -.05 && Mathf.Abs(inputs.move.x) > Mathf.Abs(inputs.move.y))
         {
             animator.SetTrigger("MoveLeft");
@@ -111,7 +116,6 @@ public class CharacterController : MonoBehaviour
     }
     private IEnumerator ApplyItemEffect()
     {
-        Debug.Log("UseItem!!!");
         var item = inventory.Last();
         item.UseItem(this);
         inventory.Remove(item);
@@ -120,15 +124,21 @@ public class CharacterController : MonoBehaviour
         yield return new WaitForSeconds(item.duration);
         
         item.RemoveItemEffects(this);
-        
-        Debug.Log("RemoveItemEffects!!!");
-        
     }
 
     public void StealItem(Item item)
     {
-        inventory.Add(item);
-        hudManager.UpdateItemImages(inventory);
+        if (item.usable)
+        {
+            valueStolen += item.price;
+            inventory.Add(item);
+            hudManager.UpdateItemImages(inventory);
+        }
+        else
+        {
+            valueStolen += item.price;
+        }
+        
         npcManager.TrackItemStolen(item);   
     }
     public void Caught()
@@ -141,5 +151,21 @@ public class CharacterController : MonoBehaviour
         visionRange += increase;
         fieldOfView.SetViewDistance(visionRange); 
         npcManager.SetVisionDistance(visionRange - .2f);
+    }
+
+    public void BeginTeleportPlayer(Vector3 destinationTeleporter)
+    {
+        teleporting = true;
+        animator.SetBool(Teleport, true);
+        teleportDest = destinationTeleporter;
+        rb.velocity = Vector2.zero;
+        
+    }
+
+    public void TeleportPlayer()
+    {
+        Debug.Log("teleport");
+        transform.position = teleportDest;
+        animator.SetBool(Teleport, false);
     }
 }

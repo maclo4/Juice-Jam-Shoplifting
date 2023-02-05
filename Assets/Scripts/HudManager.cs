@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,6 +12,7 @@ public class HudManager : MonoBehaviour
     public TMP_Text speedText, stealthText, moneyText, alarmLevelText;
     public List<Image> itemImages;
     public Slider securityMeter;
+    public Slider speedMeter;
 
 
     private void Start()
@@ -21,10 +23,8 @@ public class HudManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speedText.text = "Max speed: " + characterController.maxSpeed;;
-        stealthText.text = "Stealth: " + characterController.visionRange;
-        moneyText.text = "$$$: " + characterController.valueStolen;
-        alarmLevelText.text = "# Guards: " + npcManager.GetSecurityLevel();
+        UpdateSpeedMeter(characterController.maxSpeed);
+        moneyText.text = characterController.valueStolen.ToString(CultureInfo.InvariantCulture);
     }
 
     public void UpdateItemImages(List<Item> items)
@@ -40,6 +40,16 @@ public class HudManager : MonoBehaviour
         for(int i = items.Count; i < itemImages.Count; i++)
         {
             itemImages[i].color = Color.clear;
+        }
+    }
+
+    public void UpdateSpeedMeter(float currSpeed)
+    {
+        if (currSpeed > 15)
+            speedMeter.value = 1;
+        else
+        {
+            speedMeter.value = currSpeed / 15f;
         }
     }
 }

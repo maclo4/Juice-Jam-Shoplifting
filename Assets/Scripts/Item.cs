@@ -11,8 +11,10 @@ public class Item : MonoBehaviour
     public string description;
     public Sprite image;
     public int duration = 5;
+    public bool usable;
 
     public GameObject gumTrap;
+    public GameObject lampTrap;
     public void UseItem(CharacterController characterController)
     {
         switch (type)
@@ -20,9 +22,11 @@ public class Item : MonoBehaviour
             case ItemType.Gum:
                 PlaceGlue(characterController.transform.position);
                 break;
+            case ItemType.Lamp:
+                PlaceLamp(characterController.transform.position);
+                break;
             default:
                 characterController.maxSpeed += speedBoost;
-                characterController.valueStolen += price;
                 characterController.IncreaseVisionRange(visionBoost);
                 break;
         }
@@ -34,7 +38,6 @@ public class Item : MonoBehaviour
         {
             default:
                 characterController.maxSpeed -= speedBoost;
-                characterController.valueStolen -= price;
                 characterController.IncreaseVisionRange(-visionBoost);
                 break;
         }
@@ -43,5 +46,9 @@ public class Item : MonoBehaviour
     private void PlaceGlue(Vector3 spawnLocation)
     {
         Instantiate(gumTrap, spawnLocation, Quaternion.identity);
+    }
+    private void PlaceLamp(Vector3 spawnLocation)
+    {
+        Instantiate(lampTrap, spawnLocation, Quaternion.identity);
     }
 }

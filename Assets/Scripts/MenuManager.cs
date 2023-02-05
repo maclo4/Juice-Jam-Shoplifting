@@ -7,6 +7,7 @@ public class MenuManager : MonoBehaviour
     public List<GameObject> objectsToInitialize;
     public void RestartGame()
     {
+        Debug.Log("button pressed");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     public void QuitGame()

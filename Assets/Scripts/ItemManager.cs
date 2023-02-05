@@ -6,7 +6,10 @@ public enum ItemType
     EnergyDrink,
     Shoes,
     Gum,
-    Stars
+    Lamp,
+    Stars,
+    Money,
+    GenericUsable
 }
 
 [RequireComponent(typeof(Item))]

@@ -13,6 +13,7 @@ Material:
   - CHROMABERR_ON
   - FLICKER_ON
   - HOLOGRAM_ON
+  - ROTATEUV_ON
   - SHAKEUV_ON
   - ZOOMUV_ON
   m_InvalidKeywords: []

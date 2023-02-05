@@ -58,9 +58,10 @@ MonoBehaviour:
   speedBoost: 0
   visionBoost: 0
   securityChange: 25
-  description: 
+  description: Sticks to your shoes.
   image: {fileID: 21300000, guid: cf15a0a7e246905439bd1b3632efff40, type: 3}
   duration: 5
+  usable: 1
   gumTrap: {fileID: 4599445708784758757, guid: 2cd9610d5a2b48c46bb2242135d1b416, type: 3}
 --- !u!61 &3595309013663378364
 BoxCollider2D:

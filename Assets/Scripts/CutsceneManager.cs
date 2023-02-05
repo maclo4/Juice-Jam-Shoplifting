@@ -13,7 +13,7 @@ public class CutsceneManager : MonoBehaviour
     public void EnableCaughtScreen()
     {
         cutsceneCamera.SetActive(true);
-        game.SetActive(false);
+        //game.SetActive(false);
         //mainCamera.SetActive(false);
         caughtScreen.SetActive(true);
         firstButton.Select();

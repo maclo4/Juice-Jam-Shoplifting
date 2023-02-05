@@ -51,6 +51,9 @@ namespace DefaultNamespace
             if (context.action.phase == InputActionPhase.Performed && useItem == InputStates.Raised)
             {
                 useItem = InputStates.WasPressedThisFrame;
+                //so bad but no time
+                if (characterController.teleporting) return;
+                
                 characterController.UseItem();
             }          
             else if (context.phase == InputActionPhase.Performed)

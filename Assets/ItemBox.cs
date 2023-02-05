@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using DefaultNamespace;
 using TMPro;
@@ -11,19 +12,23 @@ public class ItemBox : MonoBehaviour
     public List<GameObject> itemPrefabs;
     private CharacterController characterController;
     private Animator animator;
+    private Animator itemBoxAnimator;
     public Canvas itemCardCanvas;
     public TMP_Text item1Name, item1Description, item1Stats;
     public TMP_Text item2Name, item2Description, item2Stats;
     public Image item1Image, item2Image;
+    public GameObject highlightedImage;
     public Button firstButton;
     public float buttonHoldTime;
     private float startTime;
     private static readonly int Load = Animator.StringToHash("Load");
     
     public ItemSpawner itemSpawner;
+    private static readonly int Highlighted = Animator.StringToHash("Highlighted");
 
     private void Start()
     {
+        //itemBoxAnimator = GetComponent<Animator>();
         animator = GetComponent<Animator>();
         item1 = itemPrefabs[Random.Range(0, itemPrefabs.Count)].GetComponent<Item>();
         item2 = itemPrefabs[Random.Range(0, itemPrefabs.Count)].GetComponent<Item>();
@@ -54,6 +59,8 @@ public class ItemBox : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
         
+        //animator.SetBool(Highlighted, true);
+        highlightedImage.SetActive(true);
         characterController = other.gameObject.GetComponent<CharacterController>();
         if (characterController.inputs.interact == InputStates.WasPressedThisFrame)
         {
@@ -73,12 +80,21 @@ public class ItemBox : MonoBehaviour
         animator.SetBool(Load, true);
     }
 
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (!other.CompareTag("Player")) return;
+        highlightedImage.SetActive(false);
+        //animator.SetBool(Highlighted, false);
+    }
+
     public void DisplayItems()
     {
         Time.timeScale = 0;
         itemCardCanvas.gameObject.SetActive(true);
         firstButton.Select();
 
+        highlightedImage.SetActive(false);
+        
         item1Image.sprite = item1.image;
         item2Image.sprite = item2.image;
         
@@ -86,7 +102,7 @@ public class ItemBox : MonoBehaviour
         item2Name.text = item2.name;
         
         item1Description.text = item1.description;
-        item2Description.text = item2.description;
+        item2Description.text = item2.description;/*
 
         item1Stats.text += "Speed Boost: " + item1.speedBoost + System.Environment.NewLine;
         item2Stats.text += "Speed Boost: " + item2.speedBoost + System.Environment.NewLine;
@@ -97,6 +113,6 @@ public class ItemBox : MonoBehaviour
         
         
         item1Stats.text += "Security: " + item1.securityChange + System.Environment.NewLine;
-        item2Stats.text += "Security: " + item2.securityChange + System.Environment.NewLine;
+        item2Stats.text += "Security: " + item2.securityChange + System.Environment.NewLine;*/
     }
 }
