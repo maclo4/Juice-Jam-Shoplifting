@@ -49,7 +49,7 @@ public class NpcManager : MonoBehaviour
         }
         
         
-        if (PassedThreshold(200) || PassedThreshold(300) )
+        if (PassedThreshold(200) || PassedThreshold(400))
         {
             var securityGuard = SpawnSecurityGuard(baseSecurityPrefab);
             var ai = securityGuard.GetComponent<SecurityAi>();
@@ -59,7 +59,7 @@ public class NpcManager : MonoBehaviour
 
             speedModifier += .25f;
         }
-        if (PassedThreshold(400) || PassedThreshold(500))
+        if (PassedThreshold(300) || PassedThreshold(400) || PassedThreshold(500) || PassedThreshold(1000))
         {
             var securityGuard = SpawnSecurityGuard(fwipSecurityPrefab);
             var ai = securityGuard.GetComponent<SecurityAi>();
@@ -69,13 +69,13 @@ public class NpcManager : MonoBehaviour
 
             speedModifier += .25f;
         }
-        else if (PassedThreshold(600) || PassedThreshold(700) || PassedThreshold(800)
+        else if ( PassedThreshold(600) || PassedThreshold(700) || PassedThreshold(800)
                  || PassedThreshold(900) || PassedThreshold(1000) || PassedThreshold(1100)
                  || PassedThreshold(1200) || PassedThreshold(1300) || PassedThreshold(1400) 
                  || PassedThreshold(1500))
         {
             //var randomNumber = UnityEngine.Random.Range(0, 3);
-            var securityGuard = SpawnSecurityGuard(fwipSecurityPrefab);
+            var securityGuard = SpawnSecurityGuard(blarghSecurityPrefab);
             var ai = securityGuard.GetComponent<SecurityAi>();
             
             ai.chaseSpeed += speedModifier;

@@ -79,16 +79,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06081464e9af4ccab11b31a967afa172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 4
+  type: 5
   price: 150
   speedBoost: 0
   visionBoost: 0
-  securityChange: 50
+  securityChange: 150
   description: not sponsored
   image: {fileID: -1185850164, guid: 774d056c87fd19941bcf284daa653242, type: 3}
   duration: 5
   usable: 0
   gumTrap: {fileID: 0}
+  lampTrap: {fileID: 0}
 --- !u!114 &5585191840529494069
 MonoBehaviour:
   m_ObjectHideFlags: 0

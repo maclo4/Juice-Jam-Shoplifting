@@ -49,6 +49,7 @@ public class Item : MonoBehaviour
     }
     private void PlaceLamp(Vector3 spawnLocation)
     {
-        Instantiate(lampTrap, spawnLocation, Quaternion.identity);
+        var lamp = Instantiate(lampTrap, spawnLocation, Quaternion.identity);
+        lamp.SetActive(true);
     }
 }

@@ -79,16 +79,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06081464e9af4ccab11b31a967afa172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 3
+  type: 4
   price: 10
   speedBoost: 0
   visionBoost: 3
-  securityChange: 50
+  securityChange: 25
   description: ...glows in the dark
   image: {fileID: 21300000, guid: 55db54abb5b1e954f980d6c09674af23, type: 3}
   duration: 5
   usable: 1
   gumTrap: {fileID: 0}
+  lampTrap: {fileID: 0}
 --- !u!114 &5585191840529494069
 MonoBehaviour:
   m_ObjectHideFlags: 0

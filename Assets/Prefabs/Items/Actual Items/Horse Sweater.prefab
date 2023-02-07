@@ -79,16 +79,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06081464e9af4ccab11b31a967afa172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 5
-  price: 50
+  type: 6
+  price: 35
   speedBoost: 2
   visionBoost: 0
-  securityChange: 75
+  securityChange: 50
   description: horse girls only
   image: {fileID: -423212189, guid: 59d19883c9ffd5042b04e448c2ac0728, type: 3}
   duration: 5
   usable: 1
   gumTrap: {fileID: 0}
+  lampTrap: {fileID: 0}
 --- !u!114 &5585191840529494069
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -15,6 +15,8 @@ public class SecurityAi : MonoBehaviour
     public GameObject patrolPathPrefab;
     private int currPatrolPath;
     private Transform playerTransform;
+    public GameObject fieldOfViewGameObject;
+    private FieldOfView fieldOfView;
     
     
     //public float speed = 0f;
@@ -55,6 +57,8 @@ public class SecurityAi : MonoBehaviour
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        var instantiatedFov = Instantiate(fieldOfViewGameObject);
+        fieldOfView = instantiatedFov.GetComponent<FieldOfView>();
 
         SetRandomPath();
         InvokeRepeating("UpdatePathToPlayer", 0f, .5f);
@@ -99,6 +103,7 @@ public class SecurityAi : MonoBehaviour
     void Update()
     {
         enemyVision.SetOrigin(transform.position);
+        fieldOfView.SetOrigin(transform.position);
         //If the analog stick in in the middle
         /*if (rb.velocity.x < .05 && rb.velocity.x > -.05 && rb.velocity.y < .05 && rb.velocity.y > -.05)
         {

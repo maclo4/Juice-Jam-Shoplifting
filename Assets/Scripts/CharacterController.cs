@@ -118,6 +118,7 @@ public class CharacterController : MonoBehaviour
     {
         var item = inventory.Last();
         item.UseItem(this);
+        
         inventory.Remove(item);
         hudManager.UpdateItemImages(inventory);
         
@@ -168,4 +169,13 @@ public class CharacterController : MonoBehaviour
         transform.position = teleportDest;
         animator.SetBool(Teleport, false);
     }
+
+    /*public void DisablePlayerInputs()
+    {
+        inputs.enabled = false;
+    }
+    public void EnablePlayerInputs()
+    {
+        inputs.enabled = false;
+    }*/
 }

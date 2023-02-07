@@ -35,6 +35,7 @@ public class EnemyVision : MonoBehaviour
             
             if (raycastHit2D.collider != null && raycastHit2D.transform.gameObject.CompareTag("Player")) 
             {
+                Debug.Log("enemy vision");
                 Debug.DrawLine(origin, 
                     raycastHit2D.point, Color.red, Time.deltaTime );
                 playerInLineOfSight = true;

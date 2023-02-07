@@ -14,9 +14,10 @@ public class ItemBox : MonoBehaviour
     private Animator animator;
     private Animator itemBoxAnimator;
     public Canvas itemCardCanvas;
-    public TMP_Text item1Name, item1Description, item1Stats;
-    public TMP_Text item2Name, item2Description, item2Stats;
+    public TMP_Text item1Name, item1Description, item1Stats, item1Price;
+    public TMP_Text item2Name, item2Description, item2Stats, item2Price;
     public Image item1Image, item2Image;
+    public GameObject item1Highlight, item2Highlight;
     public GameObject highlightedImage;
     public Button firstButton;
     public float buttonHoldTime;
@@ -84,15 +85,15 @@ public class ItemBox : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
         highlightedImage.SetActive(false);
-        //animator.SetBool(Highlighted, false);
+        animator.SetBool(Load, false);
     }
 
     public void DisplayItems()
     {
-        Time.timeScale = 0;
+        
+        Debug.Log("display items");
         itemCardCanvas.gameObject.SetActive(true);
         firstButton.Select();
-
         highlightedImage.SetActive(false);
         
         item1Image.sprite = item1.image;
@@ -102,7 +103,24 @@ public class ItemBox : MonoBehaviour
         item2Name.text = item2.name;
         
         item1Description.text = item1.description;
-        item2Description.text = item2.description;/*
+        item2Description.text = item2.description;
+
+        item1Price.text = "$" + item1.price;
+        item2Price.text = "$" + item2.price;
+
+
+        if (item1.type != ItemType.Money)
+        {
+            item1Highlight.SetActive(true);
+        }
+        
+        if (item2.type != ItemType.Money)
+        {
+            item2Highlight.SetActive(true);
+        }
+        
+        Time.timeScale = 0;
+        /*
 
         item1Stats.text += "Speed Boost: " + item1.speedBoost + System.Environment.NewLine;
         item2Stats.text += "Speed Boost: " + item2.speedBoost + System.Environment.NewLine;
@@ -115,4 +133,5 @@ public class ItemBox : MonoBehaviour
         item1Stats.text += "Security: " + item1.securityChange + System.Environment.NewLine;
         item2Stats.text += "Security: " + item2.securityChange + System.Environment.NewLine;*/
     }
+
 }

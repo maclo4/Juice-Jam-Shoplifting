@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -29,13 +30,17 @@ public class HudManager : MonoBehaviour
 
     public void UpdateItemImages(List<Item> items)
     {
-        int j = 0;
-        for(int i = items.Count -1; i >= 0; i--)
+        items.Reverse();
+        for(int i = 0; i < items.Count; i++)
         {
-            itemImages[i].sprite = items[j].image;
+            if (i >= itemImages.Count) break;
+
+            var lastItem = items[i];
+            itemImages[i].sprite = lastItem.image;
             itemImages[i].color = Color.white;
-            j++;
         }
+
+        items.Reverse();
 
         for(int i = items.Count; i < itemImages.Count; i++)
         {

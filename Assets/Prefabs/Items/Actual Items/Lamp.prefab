@@ -80,15 +80,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 3
-  price: 100
+  price: 40
   speedBoost: 0
-  visionBoost: 5
-  securityChange: 50
+  visionBoost: 0
+  securityChange: 75
   description: It's in this season
   image: {fileID: 291550326, guid: 774d056c87fd19941bcf284daa653242, type: 3}
   duration: 5
   usable: 1
-  gumTrap: {fileID: 0}
+  gumTrap: {fileID: 4599445708784758757, guid: 2cd9610d5a2b48c46bb2242135d1b416, type: 3}
+  lampTrap: {fileID: 7923728900439493979, guid: e8133aa658c101d4e90920226e1fd4fc, type: 3}
 --- !u!114 &5585191840529494069
 MonoBehaviour:
   m_ObjectHideFlags: 0
