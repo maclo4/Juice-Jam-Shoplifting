@@ -16,7 +16,7 @@ public class SecurityAi : MonoBehaviour
     private int currPatrolPath;
     private Transform playerTransform;
     public GameObject fieldOfViewGameObject;
-    private FieldOfView fieldOfView;
+   // private EnemyVision fieldOfView;
     
     
     //public float speed = 0f;
@@ -32,7 +32,7 @@ public class SecurityAi : MonoBehaviour
     private float currChaseTime;
     private bool chaseCoroutineRunning;
     public bool playerInLineOfSight;
-    public EnemyVision enemyVision;
+    private EnemyVision enemyVision;
 
     private Path path;
 
@@ -49,6 +49,10 @@ public class SecurityAi : MonoBehaviour
     public bool trapColliding;
     private float resetWalkSpeed;
     private float resetChaseSpeed;
+    private static readonly int MoveLeft = Animator.StringToHash("MoveLeft");
+    private static readonly int MoveRight = Animator.StringToHash("MoveRight");
+    private static readonly int MoveDown = Animator.StringToHash("MoveDown");
+    private static readonly int MoveUp = Animator.StringToHash("MoveUp");
 
     // Start is called before the first frame update
     void Start()
@@ -57,8 +61,11 @@ public class SecurityAi : MonoBehaviour
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        
         var instantiatedFov = Instantiate(fieldOfViewGameObject);
-        fieldOfView = instantiatedFov.GetComponent<FieldOfView>();
+        enemyVision = instantiatedFov.GetComponent<EnemyVision>();
+        enemyVision.securityAi = this;
+        enemyVision.SetFoV(90);
 
         SetRandomPath();
         InvokeRepeating("UpdatePathToPlayer", 0f, .5f);
@@ -103,15 +110,18 @@ public class SecurityAi : MonoBehaviour
     void Update()
     {
         enemyVision.SetOrigin(transform.position);
-        fieldOfView.SetOrigin(transform.position);
-        //If the analog stick in in the middle
-        /*if (rb.velocity.x < .05 && rb.velocity.x > -.05 && rb.velocity.y < .05 && rb.velocity.y > -.05)
-        {
-            animator.SetTrigger("Idle");
-        }*/
+        
         if (path == null || state == SecurityStates.Scanning || currentWaypoint >= path.vectorPath.Count) return;
         
-        Vector3 directionMoving = ((Vector2) path.vectorPath[currentWaypoint] - rb.position).normalized;;
+        Vector3 directionMoving = ((Vector2) path.vectorPath[currentWaypoint] - rb.position).normalized;
+
+        if (currentWaypoint == 0)
+        {
+            directionMoving = ((Vector2) path.vectorPath[currentWaypoint+1] - rb.position).normalized;
+        }
+        
+        enemyVision.SetAimDirection(directionMoving);
+        
         string directionString = "";
         
         if (directionMoving.x > .05)
@@ -133,16 +143,16 @@ public class SecurityAi : MonoBehaviour
         }
         
         if(directionString == "West" || directionString == "West North" ||  directionString == "West South" )
-            animator.SetTrigger("MoveLeft");
+            animator.SetTrigger(MoveLeft);
         
         if(directionString == "East" || directionString == "East North" ||  directionString == "East South" )
-            animator.SetTrigger("MoveRight");
+            animator.SetTrigger(MoveRight);
         
         if(directionString == "South")
-            animator.SetTrigger("MoveDown");
+            animator.SetTrigger(MoveDown);
         
         if(directionString == "North")
-            animator.SetTrigger("MoveUp");
+            animator.SetTrigger(MoveUp);
     }
     
     // Update is called once per frame
@@ -184,16 +194,6 @@ public class SecurityAi : MonoBehaviour
         //Get direction to move in
         var direction = ((Vector2) path.vectorPath[currentWaypoint] - rb.position).normalized;
 
-        // Make object look in direction of next waypoint
-        //var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        //transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-
-        //speed = Mathf.SmoothDamp(speed, walkSpeed, ref currVelocity, smoothTime);
-        //var smoothDampVelocity = Vector2.SmoothDamp(
-         //   rb.velocity, direction * walkSpeed, ref currVelocityV2, smoothTime);
-        //rb.velocity = smoothDampVelocity;
-        //rb.velocity = direction * walkSpeed;
-        
         var force = direction * walkSpeed * Time.deltaTime;
         transform.position =  new Vector3(transform.position.x + force.x, transform.position.y + force.y,
             transform.position.z);
@@ -371,5 +371,10 @@ public class SecurityAi : MonoBehaviour
         trapColliding = false;
         chaseSpeed += chaseSlowdown;
         walkSpeed += walkSlowdown;
+    }
+
+    public void SetVisionDistance(float distance)
+    {
+        enemyVision.viewDistance = distance;
     }
 }

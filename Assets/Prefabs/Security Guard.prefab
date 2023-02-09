@@ -52,6 +52,7 @@ MonoBehaviour:
   fov: 361
   viewDistance: 9
   rayCount: 500
+  meshColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &2244827658732921222
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -118,7 +119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6437092599264573417
 Transform:
   m_ObjectHideFlags: 0
@@ -153,6 +154,7 @@ MonoBehaviour:
   viewDistance: 10
   rayCount: 150
   securityAi: {fileID: 7653980657305941636}
+  meshColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &6430754904700952167
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,10 +475,9 @@ MonoBehaviour:
   walkSpeed: 2
   chaseSpeed: 4
   currVelocityV2: {x: 0, y: 0}
-  nextWaypointDistance: 0.5
+  nextWaypointDistance: 2
   chaseTime: 5
   playerInLineOfSight: 0
-  enemyVision: {fileID: 2608025714618594977}
   smoothTime: 0.05
   trapColliding: 0
 --- !u!50 &7653980657305941662

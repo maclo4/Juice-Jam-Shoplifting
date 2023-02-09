@@ -24,10 +24,14 @@ public class FieldOfView : MonoBehaviour {
     public int rayCount = 150;
     private Vector3 origin;
     private float startingAngle;
+    private Material meshMaterial;
+    public Color meshColor;
 
     private void Start() {
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
+        meshMaterial = GetComponent<MeshRenderer>().material;
+        meshMaterial.color = meshColor;
         
         origin = Vector3.zero;
     }
@@ -83,7 +87,12 @@ public class FieldOfView : MonoBehaviour {
     public void SetAimDirection(Vector3 aimDirection) {
         startingAngle = UtilsClass.GetAngleFromVectorFloat(aimDirection) + fov / 2f;
     }
+    
+    public float GetAimDirection() {
+        return startingAngle;
+    }
 
+    
     public void SetFoV(float fov) {
         this.fov = fov;
     }

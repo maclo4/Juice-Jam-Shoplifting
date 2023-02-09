@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3418436650126298235
 Transform:
   m_ObjectHideFlags: 0
@@ -100,7 +100,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6437092599264573417
 Transform:
   m_ObjectHideFlags: 0
@@ -135,6 +135,7 @@ MonoBehaviour:
   viewDistance: 10
   rayCount: 150
   securityAi: {fileID: 7653980657305941636}
+  meshColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &7653980656456419751
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,13 +367,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   patrolPath: []
   patrolPathPrefab: {fileID: 7441595202083195410, guid: 8702762850c279c4591112489ebc96a6, type: 3}
+  fieldOfViewGameObject: {fileID: 3743686233712192481, guid: 2c2d694499991aa40bc30826f7d4f2bc, type: 3}
   walkSpeed: 5
   chaseSpeed: 7
   currVelocityV2: {x: 0, y: 0}
   nextWaypointDistance: 0.5
   chaseTime: 5
   playerInLineOfSight: 0
-  enemyVision: {fileID: 2608025714618594977}
   smoothTime: 0.05
   trapColliding: 0
 --- !u!50 &7653980657305941662

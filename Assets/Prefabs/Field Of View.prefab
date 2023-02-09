@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3743686233712192485}
   - component: {fileID: 3743686233712192482}
   - component: {fileID: 3743686233712192483}
+  - component: {fileID: 2081518342547972074}
   m_Layer: 8
   m_Name: Field Of View
   m_TagString: Untagged
@@ -41,7 +42,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3743686233712192481}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f63d117ccc6fa3c44928ae91f95587b3, type: 3}
   m_Name: 
@@ -49,9 +50,10 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 64
-  fov: 361
+  fov: 360
   viewDistance: 9
   rayCount: 500
+  meshColor: {r: 0, g: 0.3584906, b: 0, a: 0.16862746}
 --- !u!33 &3743686233712192482
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -80,7 +82,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9890d64318b1463448dbfc7d74899ef8, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -102,3 +104,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2081518342547972074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3743686233712192481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 249762bc3a8fac8499f45355dfad4423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1088
+  fov: 90
+  viewDistance: 10
+  rayCount: 150
+  securityAi: {fileID: 0}
+  meshColor: {r: 0, g: 0.35686275, b: 0, a: 0.2901961}

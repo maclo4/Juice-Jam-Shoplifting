@@ -2948,7 +2948,7 @@ GameObject:
   - component: {fileID: 216231000}
   - component: {fileID: 216231002}
   - component: {fileID: 216231001}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6201,7 +6201,7 @@ GameObject:
   - component: {fileID: 356046372}
   - component: {fileID: 356046374}
   - component: {fileID: 356046373}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7835,7 +7835,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 439847750}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8844,7 +8844,7 @@ GameObject:
   - component: {fileID: 449004694}
   - component: {fileID: 449004696}
   - component: {fileID: 449004695}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9188,7 +9188,7 @@ GameObject:
   - component: {fileID: 462992040}
   - component: {fileID: 462992042}
   - component: {fileID: 462992041}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11519,7 +11519,7 @@ MonoBehaviour:
   fieldOfView: {fileID: 1134564812}
   decelerationTime: 0.2
   accelerationTime: 0.1
-  visionRange: 10
+  visionRange: 7
   maxSpeed: 7
   valueStolen: 0
 --- !u!114 &558762908
@@ -11663,7 +11663,7 @@ GameObject:
   - component: {fileID: 574298643}
   - component: {fileID: 574298645}
   - component: {fileID: 574298644}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11958,7 +11958,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.888}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.009, y: 1}
   m_AnchoredPosition: {x: 0.0625, y: 0.6000061}
   m_SizeDelta: {x: -0.125, y: 2.32}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -20956,6 +20956,7 @@ MonoBehaviour:
   fov: 0
   viewDistance: 0
   rayCount: 150
+  meshColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &988186642
 GameObject:
   m_ObjectHideFlags: 3
@@ -21151,7 +21152,7 @@ GameObject:
   - component: {fileID: 1078756114}
   - component: {fileID: 1078756116}
   - component: {fileID: 1078756115}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22368,6 +22369,7 @@ MonoBehaviour:
   fov: 361
   viewDistance: 9
   rayCount: 500
+  meshColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1170854639
 GameObject:
   m_ObjectHideFlags: 0
@@ -24177,7 +24179,7 @@ GameObject:
   - component: {fileID: 1286512083}
   - component: {fileID: 1286512085}
   - component: {fileID: 1286512084}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26009,7 +26011,7 @@ GameObject:
   - component: {fileID: 1411904878}
   - component: {fileID: 1411904881}
   - component: {fileID: 1411904882}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26120,7 +26122,7 @@ GameObject:
   - component: {fileID: 1412050040}
   - component: {fileID: 1412050042}
   - component: {fileID: 1412050041}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27067,7 +27069,7 @@ GameObject:
   - component: {fileID: 1442656599}
   - component: {fileID: 1442656601}
   - component: {fileID: 1442656600}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27377,7 +27379,7 @@ GameObject:
   - component: {fileID: 1498757189}
   - component: {fileID: 1498757190}
   m_Layer: 8
-  m_Name: Flashlight
+  m_Name: ' Shadow'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27438,9 +27440,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5f026a17fa8bf144aae2b50d60e7ef30, type: 3}
-  m_Color: {r: 0.7311321, g: 0.75610083, b: 1, a: 0.3137255}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 891774115549c6d42a7db3e944adf8dc, type: 3}
+  m_Color: {r: 0.06666075, g: 0.10349623, b: 0.13207549, a: 0.7764706}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -29960,7 +29962,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1628785068}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Top Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34052,7 +34054,7 @@ GameObject:
   - component: {fileID: 1898980299}
   - component: {fileID: 1898980301}
   - component: {fileID: 1898980300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34739,7 +34741,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.888}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.0625, y: 0.6000061}
   m_SizeDelta: {x: -0.125, y: 2.32}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -34799,7 +34801,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1952377170
 RectTransform:
   m_ObjectHideFlags: 0
@@ -35112,7 +35114,7 @@ GameObject:
   - component: {fileID: 1960911877}
   - component: {fileID: 1960911879}
   - component: {fileID: 1960911878}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35981,7 +35983,7 @@ GameObject:
   - component: {fileID: 1989482171}
   - component: {fileID: 1989482173}
   - component: {fileID: 1989482172}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36092,7 +36094,7 @@ GameObject:
   - component: {fileID: 1995571986}
   - component: {fileID: 1995571988}
   - component: {fileID: 1995571987}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37436,7 +37438,7 @@ GameObject:
   - component: {fileID: 2109105066}
   - component: {fileID: 2109105068}
   - component: {fileID: 2109105067}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bottom Wall (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

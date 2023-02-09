@@ -1,8 +1,6 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using Random = System.Random;
 
 public class NpcManager : MonoBehaviour
 {
@@ -108,7 +106,7 @@ public class NpcManager : MonoBehaviour
     {
         foreach (var ai in securityAis)
         {
-            ai.enemyVision.SetViewDistance(viewDistance);
+            ai.SetVisionDistance(viewDistance);
         }
     }
 }
