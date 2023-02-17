@@ -80,15 +80,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  price: 3
+  price: 6
   speedBoost: 3
   visionBoost: 0
-  securityChange: 50
+  securityChange: 10
   description: This stuff will have you wired
   image: {fileID: 21300000, guid: b5e795ad3af18ee45942bf0ddcd7b347, type: 3}
   duration: 5
   usable: 1
   gumTrap: {fileID: 0}
+  lampTrap: {fileID: 0}
 --- !u!114 &5585191840529494069
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -83,7 +83,7 @@ MonoBehaviour:
   price: 75
   speedBoost: 0
   visionBoost: 0
-  securityChange: 75
+  securityChange: 50
   description: On wednesdays we wear black
   image: {fileID: -1333686565, guid: 59d19883c9ffd5042b04e448c2ac0728, type: 3}
   duration: 5

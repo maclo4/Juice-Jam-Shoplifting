@@ -17,7 +17,7 @@ public class EnemyVision : MonoBehaviour
     public Color meshColor;
     private Material meshMaterial;
 
-    private void Start()
+    private void Awake()
     {
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
@@ -106,6 +106,9 @@ public class EnemyVision : MonoBehaviour
     public void SetAimDirection(Vector3 aimDirection) {
         startingAngle = UtilsClass.GetAngleFromVectorFloat(aimDirection) + fov / 2f;
     }
+    public float GetAimDirection() {
+        return startingAngle;
+    }
 
     public void SetFoV(float fov) {
         this.fov = fov;
@@ -113,5 +116,10 @@ public class EnemyVision : MonoBehaviour
 
     public void SetViewDistance(float viewDistance) {
         this.viewDistance = viewDistance;
+    }
+
+    public void SetColor(Color color)
+    { 
+        meshMaterial.color = color;
     }
 }

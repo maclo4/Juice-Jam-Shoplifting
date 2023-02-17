@@ -16,29 +16,26 @@ public class SecurityAi : MonoBehaviour
     private int currPatrolPath;
     private Transform playerTransform;
     public GameObject fieldOfViewGameObject;
-   // private EnemyVision fieldOfView;
     
     
-    //public float speed = 0f;
     [FormerlySerializedAs("maxSpeed")] 
     public float walkSpeed = 3f;
     public float chaseSpeed = 5f;
-    //public float currVelocity;
-    public Vector2 currVelocityV2;
     public float nextWaypointDistance = 1f;
     
     //How long a guard will chase you after they've lost sight of you
     public float chaseTime;
     private float currChaseTime;
     private bool chaseCoroutineRunning;
-    public bool playerInLineOfSight;
     private EnemyVision enemyVision;
+    public Color visionConeColor;
+    public float visionDistance;
+    public float visionFov;
 
     private Path path;
 
     private int currentWaypoint;
     private Seeker seeker;
-    public float smoothTime = 0.3F;
     
     private Rigidbody2D rb;
     private Animator animator;
@@ -47,8 +44,6 @@ public class SecurityAi : MonoBehaviour
     private SecurityStates state;
     private static readonly int Scanning = Animator.StringToHash("Scanning");
     public bool trapColliding;
-    private float resetWalkSpeed;
-    private float resetChaseSpeed;
     private static readonly int MoveLeft = Animator.StringToHash("MoveLeft");
     private static readonly int MoveRight = Animator.StringToHash("MoveRight");
     private static readonly int MoveDown = Animator.StringToHash("MoveDown");
@@ -65,13 +60,13 @@ public class SecurityAi : MonoBehaviour
         var instantiatedFov = Instantiate(fieldOfViewGameObject);
         enemyVision = instantiatedFov.GetComponent<EnemyVision>();
         enemyVision.securityAi = this;
-        enemyVision.SetFoV(90);
+        enemyVision.SetFoV(visionFov);
+        enemyVision.SetColor(visionConeColor);
+        enemyVision.SetViewDistance(visionDistance);
 
         SetRandomPath();
         InvokeRepeating("UpdatePathToPlayer", 0f, .5f);
         state = SecurityStates.Walking;
-        resetChaseSpeed = chaseSpeed;
-        resetWalkSpeed = walkSpeed;
     }
 
     void SetRandomPath()
@@ -182,11 +177,9 @@ public class SecurityAi : MonoBehaviour
 
         if (currentWaypoint >= path.vectorPath.Count)
         {
-            Debug.Log("Scanning");
             state = SecurityStates.Scanning;
             animator.SetTrigger(Scanning);
             
-            //speed = 0;
             currentWaypoint = 0;
             return;
         }
@@ -230,16 +223,6 @@ public class SecurityAi : MonoBehaviour
         var force = direction * chaseSpeed * Time.deltaTime;
         transform.position =  new Vector3(transform.position.x + force.x, transform.position.y + force.y,
             transform.position.z);
-        //RotateTowardsNextWayPoint();
-
-       // var smoothDampVelocity = Vector2.SmoothDamp(
-       //     rb.velocity, direction * walkSpeed, ref currVelocityV2, smoothTime);
-       // rb.velocity = smoothDampVelocity;
-        //speed = Mathf.SmoothDamp(speed, runSpeed, ref currVelocity, smoothTime);
-        //var force = direction * runSpeed * Time.deltaTime;
-        //rb.velocity = force;
-        //transform.position =  new Vector3(transform.position.x + force.x, transform.position.y + force.y,
-        //    transform.position.z);
 
         
         var distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);

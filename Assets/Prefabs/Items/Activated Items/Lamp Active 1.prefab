@@ -50,9 +50,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   fov: 361
-  viewDistance: 9
+  viewDistance: 10
   rayCount: 250
-  meshColor: {r: 1, g: 0.94512236, b: 0.43867922, a: 0.4745098}
+  meshColor: {r: 1, g: 0.94512236, b: 0.43867922, a: 0}
 --- !u!33 &4254093069390285139
 MeshFilter:
   m_ObjectHideFlags: 0

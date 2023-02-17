@@ -43,7 +43,6 @@ public class CharacterController : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         inventory = new List<Item>();
         fieldOfView.SetViewDistance(visionRange);
-        npcManager.SetVisionDistance(visionRange - .5f);
     }
 
     // Update is called once per frame
@@ -151,7 +150,6 @@ public class CharacterController : MonoBehaviour
     {
         visionRange += increase;
         fieldOfView.SetViewDistance(visionRange); 
-        npcManager.SetVisionDistance(visionRange - .2f);
     }
 
     public void BeginTeleportPlayer(Vector3 destinationTeleporter)

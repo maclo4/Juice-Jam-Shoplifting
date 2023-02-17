@@ -85,7 +85,7 @@ MonoBehaviour:
   visionBoost: 0
   securityChange: 100
   description: unlucky
-  image: {fileID: 2088998067, guid: 59d19883c9ffd5042b04e448c2ac0728, type: 3}
+  image: {fileID: -17628110, guid: 82efa697d124f994eba49a8cccd839b7, type: 3}
   duration: 5
   usable: 0
   gumTrap: {fileID: 4599445708784758757, guid: 2cd9610d5a2b48c46bb2242135d1b416, type: 3}
