@@ -18,7 +18,7 @@ public class ItemSpawner : MonoBehaviour
         itemSpawnLocations = itemSpawnLocationsPrefab.GetComponentsInChildren<Transform>().ToList();
         spawnListStartSize = itemSpawnLocations.Count;
         
-        InvokeRepeating(nameof(SpawnItem), 0f, 5f);
+        InvokeRepeating(nameof(SpawnItem), 0f, 12f);
         
         for (var i = 0; i < initialItemCount; i++)
         {

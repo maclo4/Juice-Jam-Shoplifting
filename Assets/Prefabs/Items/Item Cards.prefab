@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8456007689694609666}
   - component: {fileID: 3565297676456789268}
   - component: {fileID: 8440086654301800496}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Item Card
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 450571749547910385}
   - component: {fileID: 1760584172091993879}
   - component: {fileID: 7186068710679882974}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Item Card 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 8250155460836195691}
   - component: {fileID: 8250155460836195690}
   - component: {fileID: 8250155460836195693}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Item Cards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 8250155461515199375}
   - component: {fileID: 8250155461515199373}
   - component: {fileID: 8250155461515199372}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Dashboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,3 +319,6 @@ MonoBehaviour:
   stealthText: {fileID: 0}
   moneyText: {fileID: 0}
   alarmLevelText: {fileID: 0}
+  itemImages: []
+  securityMeter: {fileID: 0}
+  speedMeter: {fileID: 0}

@@ -85,7 +85,7 @@ public class NpcManager : MonoBehaviour
 
     private bool PassedThreshold(int threshold)
     {
-        return securityLevel > threshold && prevSecurityLevel < threshold;
+        return securityLevel > threshold && prevSecurityLevel <= threshold;
     }
     private GameObject SpawnSecurityGuard(GameObject securityGuard)
     {
