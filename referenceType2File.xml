@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>8c1f6ad256b378143865f1ebd5a8897b</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2022-12-13T22:37:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.AssetCollector</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5eca44d6f877790418fd64560dc98b25</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2022-12-13T22:37:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.AssetReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>633a9fd5c7aca8149a5a81894593fc4c</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2022-12-13T22:37:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.ClassReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0a426a351dd63684ab7e69b211b15257</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/CollectionData.cs</fileName>
+    <timeStamp>2022-12-13T22:37:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.CollectionData</string>
+      <string>UnitySweeper.TypeDate</string>
+      <string>UnitySweeper.IReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7dac967ac195e1e43a861f3b115fd7cb</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2022-12-13T22:37:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.FindUnusedAssetsWindow</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>625e31df5deab1c4c86cac63493b1552</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2022-12-13T22:37:41-05:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.ShaderReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ff1f8ff5411647c41a756258bf6b19e6</guid>
+    <fileName>Assets/Inputs/PlayerCharacterInputActions.cs</fileName>
+    <timeStamp>2023-09-13T16:46:35.1303269-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0c441591e60e4c8469e6340e34d8a6e3</guid>
+    <fileName>Assets/Scripts/Enemies/CapturePlayer.cs</fileName>
+    <timeStamp>2023-09-13T16:27:59.2119613-04:00</timeStamp>
+    <typeFullName>
+      <string>CapturePlayer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>249762bc3a8fac8499f45355dfad4423</guid>
+    <fileName>Assets/Scripts/Enemies/EnemyVision.cs</fileName>
+    <timeStamp>2023-02-09T19:24:40.0546689-05:00</timeStamp>
+    <typeFullName>
+      <string>EnemyVision</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>551d6e5060fc0f4479b8a8c7b6d8abd3</guid>
+    <fileName>Assets/Scripts/Enemies/SecurityAi.cs</fileName>
+    <timeStamp>2023-02-09T19:18:19.54661-05:00</timeStamp>
+    <typeFullName>
+      <string>SecurityAi</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3c932fb5529a4a55beb36bbb5aa6771c</guid>
+    <fileName>Assets/Scripts/Enemies/SecurityStates.cs</fileName>
+    <timeStamp>2023-01-30T20:23:10.4276109-05:00</timeStamp>
+    <typeFullName>
+      <string>DefaultNamespace.SecurityStates</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3c7ac37dee01d8649bac6b846378ae5e</guid>
+    <fileName>Assets/Scripts/Managers/CaughtScreenMenuManager.cs</fileName>
+    <timeStamp>2023-09-12T16:11:53.2404917-04:00</timeStamp>
+    <typeFullName>
+      <string>CaughtScreenMenuManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f5f4184b7e8b81a44acdc4f2966b07ff</guid>
+    <fileName>Assets/Scripts/Managers/FogOfWarManager.cs</fileName>
+    <timeStamp>2023-02-02T20:57:26.9158267-05:00</timeStamp>
+    <typeFullName>
+      <string>FogOfWarManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8117380bcc3cb0642bf13ceaf1c26cde</guid>
+    <fileName>Assets/Scripts/Managers/HudManager.cs</fileName>
+    <timeStamp>2023-09-13T16:27:47.6114886-04:00</timeStamp>
+    <typeFullName>
+      <string>HudManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>95f7cc3b5c4b2a549b563e4ff271e229</guid>
+    <fileName>Assets/Scripts/Managers/ItemManager.cs</fileName>
+    <timeStamp>2023-02-04T21:22:29.4679517-05:00</timeStamp>
+    <typeFullName>
+      <string>ItemType</string>
+      <string>ItemManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0d5e420be84cc424e80879ce611ac34e</guid>
+    <fileName>Assets/Scripts/Managers/LevelTransitionManager.cs</fileName>
+    <timeStamp>2023-09-13T16:20:46.6617855-04:00</timeStamp>
+    <typeFullName>
+      <string>LevelTransitionManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d6532810f9af6b64b9f949a648658a65</guid>
+    <fileName>Assets/Scripts/Managers/NpcManager.cs</fileName>
+    <timeStamp>2023-04-04T20:57:22.3394255-04:00</timeStamp>
+    <typeFullName>
+      <string>NpcManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c35e456b10a141c469f9a4d6e0d69fff</guid>
+    <fileName>Assets/Scripts/Player/AnimationEventManager.cs</fileName>
+    <timeStamp>2023-09-13T16:27:47.6294885-04:00</timeStamp>
+    <typeFullName>
+      <string>AnimationEventManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>41d73f485a8f43eaa2288a03fb665b34</guid>
+    <fileName>Assets/Scripts/Player/InputStates.cs</fileName>
+    <timeStamp>2023-01-31T17:56:43.1331562-05:00</timeStamp>
+    <typeFullName>
+      <string>DefaultNamespace.InputStates</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>de10872f546586a448c6f2ffa6ca5f53</guid>
+    <fileName>Assets/Scripts/Player/PlayerCharacterController.cs</fileName>
+    <timeStamp>2023-09-13T16:27:59.2169614-04:00</timeStamp>
+    <typeFullName>
+      <string>PlayerCharacterController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>303c2f5a9b254da386896bd3fbab86ff</guid>
+    <fileName>Assets/Scripts/Player/PlayerInputs.cs</fileName>
+    <timeStamp>2023-09-13T16:47:48.2736654-04:00</timeStamp>
+    <typeFullName>
+      <string>DefaultNamespace.PlayerInputs</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f7f9c4d89dfaba94d8c8884f42c67443</guid>
+    <fileName>Assets/Scripts/Utility/DontDestroy.cs</fileName>
+    <timeStamp>2023-08-18T13:03:41.3588169-04:00</timeStamp>
+    <typeFullName>
+      <string>DontDestroy</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ba2ad4071a2db394c851f90a5524d1ae</guid>
+    <fileName>Assets/Scripts/Utility/SelectButtonOnHighlight.cs</fileName>
+    <timeStamp>2023-09-12T15:18:48.3233418-04:00</timeStamp>
+    <typeFullName>
+      <string>SelectButtonOnHighlight</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>52d11194145637642bb627db01ebf67f</guid>
+    <fileName>Assets/Scripts/Utility/Singleton.cs</fileName>
+    <timeStamp>2023-09-12T15:39:59.066635-04:00</timeStamp>
+    <typeFullName>
+      <string>Singleton`1</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c51263ea47edd3641a26e5f242925bcf</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Editor/AllIn1ShaderGradientDrawer.cs</fileName>
+    <timeStamp>2023-02-02T11:21:54.7894428-05:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>78232fc1cf0e9c445a36b7bf7fc49fdb</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Editor/AllIn1ShaderScriptEditor.cs</fileName>
+    <timeStamp>2022-07-24T20:27:13-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f42211545c188ae41b1e35cc1ce38187</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Editor/AllIn1SpriteShaderMaterialInspector.cs</fileName>
+    <timeStamp>2022-07-24T20:27:36-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bcdb12210426bb34cb44a19ffb54132d</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Editor/AllIn1SpriteShaderUiMaskMaterialInspector.cs</fileName>
+    <timeStamp>2022-07-24T20:27:26-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>264cca4d0f5bbb54eb9de18ca54d1506</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Scripts/All1CreateUnifiedOutline.cs</fileName>
+    <timeStamp>2022-07-24T20:26:58-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ee158225ee1e59f4791627785501d950</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Scripts/AllIn1Shader.cs</fileName>
+    <timeStamp>2023-02-02T11:21:54.790443-05:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b642652081667ab4fad9f2579fec0e51</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Scripts/AllIn1ShaderWindow.cs</fileName>
+    <timeStamp>2022-07-24T20:27:26-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6078fd4d3c5bd6f4087f8869458662dd</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Scripts/RandomSeed.cs</fileName>
+    <timeStamp>2022-07-24T20:27:09-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1625263d85e5d554284989eb9052e863</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Scripts/SetAtlasUvs.cs</fileName>
+    <timeStamp>2022-07-24T20:26:56-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c6c0770c7b77d3f45ab8c8d42b794c51</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Scripts/SetGlobalTimeNew.cs</fileName>
+    <timeStamp>2022-07-24T20:27:29-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ee7031a07aea7674fad9a0795b193f56</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Scripts/SetGlobalTimeUnity2018.cs</fileName>
+    <timeStamp>2022-07-24T20:27:35-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c9679e68a0f1144e79c664d9a11ca121</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Behaviors/AIDestinationSetter.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>22e6c29e32504465faa943c537d8029b</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Behaviors/Patrol.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f499b0552bded40b6a9d474dfb94343a</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/astarclasses.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>38d211caa07cb44ef886481aa1cf755c</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/AstarData.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>960fd9020b1f74f939fee737c3c0f491</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/AstarMath.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>78396926cbbfc4ac3b48fc5fc34a87d1</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/AstarPath.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>efee954c69f0d421086729bb8df1137f</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/GraphUpdateScene.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1c31d3b0be14344e98aa458dc66c3a94</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/GraphUpdateShape.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b179046d83ec84f0c91efc5335f78a30</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Path.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7cc885607b0534cc6a4a34c4caa58d89</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/PathHandler.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ab4eeab9df88a4d069163baf60aad496</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/AIBaseEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e9e1d37b65158413c85aad4706d94ff0</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/AILerpEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>535448c66b9354b64b6b52fff9e39099</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/AnimationLinkEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>aa27fa41f8abe460a8b64e13d7be43ad</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/AstarPathEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8df9913c9ee004459b24d89644e573d7</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/AstarUpdateChecker.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>97d8d5fc46a644f22b0d66c6ee18e753</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/AstarUpdateWindow.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>576dcf42aca804a48b5923974edaee01</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/CustomGraphEditorAttribute.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4c7bf5208cabd4676a4691ce4541bd62</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/GraphUpdateSceneEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b50f1b778f5176f18b2305552cc4639c</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/ProceduralGridMoverEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>95febb4c5ed8c46939368f03ecf4b3b0</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/SeekerEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c7636164485c04efe8fad73ab1ee985f</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/Base.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d5d28978e568e40429b2981fab3e380e</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/GridGenerator.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f8b76f19632144117a3ac7f28faf2c15</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/NavmeshBase.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ffae751ca240c466185a168f4a9836cb</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/NavMeshGenerator.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f7458b5480c614cebb219a8f7f5df111</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/PointGenerator.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4931e76e5e5784200a904f4b59596556</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/QuadtreeGraph.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c5ac18cdd242041b6bebc0e95b624c85</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Legacy/LegacyAIPath.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8caf3dccb5aae46daa9684e513307841</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Legacy/MiscLegacy.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a537d958aa5bb4f35b0d7b40d72278f2</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Modifiers/AlternativePath.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>77f586f285b3847808d79083bd19ef1f</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Modifiers/FunnelModifier.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ce1f812d122764ce7a45f2dd03915e46</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Modifiers/Modifiers.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b090bec917bbe4c3bbc612ef13f7c4a1</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Modifiers/RaycastModifier.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cb6a34d769a1e4ac7b0b30e433aa443c</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Modifiers/SimpleSmoothModifier.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f72dd5db0de344ea19ae250ac5b68903</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Modifiers/StartEndModifier.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8c8c76379ef6d496bb3624f29adc556a</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Navmesh/NavmeshUpdates.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d064c7cb576144978a3535f4c71ac247</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Navmesh/RelevantGraphSurface.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e1a464aa9d87d439d9b54e2ed9027f5f</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/PackageTools/EnumFlagAttribute.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e256d5533142c4434897b4da38791511</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/PackageTools/UniqueComponentAttribute.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6cce6945a1cc843b997a7abeb3a5013e</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/PackageTools/VersionedMonoBehaviour.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7833eca4f9a3c4a119943a3ef09cdfc9</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Pathfinders/ABPath.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>df8c077ca577944689559bb9e97f9576</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/TurnBased/BlockManager.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b45e20632f1604fc6bb73e0e79cd7368</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/TurnBased/SingleNodeBlocker.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8959628b7b47f4ccca91bcfa87d9f77e</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Utilities/AstarChecksum.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9bdecddfdfec947eb8ed96282e4b1fe1</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Utilities/AstarMemory.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fa95ccba91f5c4ab8922aa7859f0a300</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Utilities/AstarParallel.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0d7c020300da24330bbc70ec30fee5d5</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Utilities/AstarProfiler.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c306b1bfc824f40909c5a91e06e4090f</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Utilities/DotNetReplacements.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>183748dd497aa473a98ff0cd8cb67fc5</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Utilities/DynamicGridObstacle.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>332338376eb42424caa0e3d6bf984a8b</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Utilities/Funnel.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>20ed0bf48b2a14d78b8aa2ebe33f0069</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Utilities/GraphGizmoHelper.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b5818f65b5e1449c1ae6f20de9f75ff5</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Utilities/GraphUpdateUtilities.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7d93ae7d64ab84e23819ac5754065f34</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Utilities/PathUtilities.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6a634230476dc478b88eceac73b1c8a4</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Utilities/ProceduralGridMover.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8ec9029c797ec471fa8b5640e1829fc0</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Utilities/ProfileHelper.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7a3cd109c93704c7ba499b8653f402ac</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Utilities/RetainedGizmos.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>632ae7eb1d4ce49d38a1e38ee7efe7c5</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Utilities/UnityReferenceHelper.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f63d117ccc6fa3c44928ae91f95587b3</guid>
+    <fileName>Assets/Imported Assets/FieldOfView/Scripts/FieldOfView.cs</fileName>
+    <timeStamp>2023-02-09T18:41:35.702162-05:00</timeStamp>
+    <typeFullName>
+      <string>FieldOfView</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>06081464e9af4ccab11b31a967afa172</guid>
+    <fileName>Assets/Scripts/Items/Core/Item.cs</fileName>
+    <timeStamp>2023-09-13T16:27:47.6254878-04:00</timeStamp>
+    <typeFullName>
+      <string>Item</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>09e9731af6edaa243adf63f9e4312e18</guid>
+    <fileName>Assets/Scripts/Items/Core/ItemBox.cs</fileName>
+    <timeStamp>2023-09-13T16:27:47.6174888-04:00</timeStamp>
+    <typeFullName>
+      <string>ItemBox</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>78d92f80081a8234f958014935ac5531</guid>
+    <fileName>Assets/Scripts/Items/Core/ItemSelectHandler.cs</fileName>
+    <timeStamp>2023-04-04T22:16:18.4420003-04:00</timeStamp>
+    <typeFullName>
+      <string>ItemSelectHandler</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>387ea327bdfc35948b9a619942e025d2</guid>
+    <fileName>Assets/Scripts/Items/Core/ItemSpawner.cs</fileName>
+    <timeStamp>2023-04-04T20:45:55.4827096-04:00</timeStamp>
+    <typeFullName>
+      <string>ItemSpawner</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>193494b29f08e4d488e92269c5448298</guid>
+    <fileName>Assets/Scripts/Items/Implementations/ItemTrap.cs</fileName>
+    <timeStamp>2023-02-04T14:28:58.8290196-05:00</timeStamp>
+    <typeFullName>
+      <string>ItemTrap</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>df8e1f54df220194ea63b4e69b1b4fde</guid>
+    <fileName>Assets/Scripts/Items/Implementations/LampLightSource.cs</fileName>
+    <timeStamp>2023-02-09T20:48:36.7830496-05:00</timeStamp>
+    <typeFullName>
+      <string>LampLightSource</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ea1ae7247a926944999f2a70dce228aa</guid>
+    <fileName>Assets/Scripts/Items/Implementations/Teleporter.cs</fileName>
+    <timeStamp>2023-09-13T16:27:47.633489-04:00</timeStamp>
+    <typeFullName>
+      <string>Teleporter</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4771330f098d1db4898ad07204154d04</guid>
+    <fileName>Assets/Scripts/Utility/CodeMonkey Utils/Button_Sprite.cs</fileName>
+    <timeStamp>2018-05-14T02:34:36-04:00</timeStamp>
+    <typeFullName>
+      <string>CodeMonkey.Utils.Button_Sprite</string>
+      <string>CodeMonkey.Utils.Button_Sprite+HoverBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>602f74cbbbd80034b96f88091a8e7c1d</guid>
+    <fileName>Assets/Scripts/Utility/CodeMonkey Utils/Button_UI.cs</fileName>
+    <timeStamp>2018-05-14T02:35:12-04:00</timeStamp>
+    <typeFullName>
+      <string>CodeMonkey.Utils.Button_UI</string>
+      <string>CodeMonkey.Utils.Button_UI+HoverBehaviour</string>
+      <string>CodeMonkey.Utils.Button_UI+InterceptActionHandler</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f522bd6f08a5c984a9512bb60ebc1818</guid>
+    <fileName>Assets/Scripts/Utility/CodeMonkey Utils/FunctionPeriodic.cs</fileName>
+    <timeStamp>2018-06-01T11:54:01-04:00</timeStamp>
+    <typeFullName>
+      <string>CodeMonkey.Utils.FunctionPeriodic</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9c8b5f0217e73fa47827cf77f22c2f8d</guid>
+    <fileName>Assets/Scripts/Utility/CodeMonkey Utils/FunctionTimer.cs</fileName>
+    <timeStamp>2018-06-01T11:54:00-04:00</timeStamp>
+    <typeFullName>
+      <string>CodeMonkey.Utils.FunctionTimer</string>
+      <string>CodeMonkey.Utils.FunctionTimer+FunctionTimerObject</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7eacfbf662ad34e46932f36084c15e11</guid>
+    <fileName>Assets/Scripts/Utility/CodeMonkey Utils/FunctionUpdater.cs</fileName>
+    <timeStamp>2018-06-01T11:54:02-04:00</timeStamp>
+    <typeFullName>
+      <string>CodeMonkey.Utils.FunctionUpdater</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>49ffd25ff4b0ca3429d1b1e2dc0ff037</guid>
+    <fileName>Assets/Scripts/Utility/CodeMonkey Utils/UI_Bar.cs</fileName>
+    <timeStamp>2018-06-01T11:43:53-04:00</timeStamp>
+    <typeFullName>
+      <string>CodeMonkey.Utils.UI_Bar</string>
+      <string>CodeMonkey.Utils.UI_Bar+Outline</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9cf7b152002fbca49b6a1a4623f200a7</guid>
+    <fileName>Assets/Scripts/Utility/CodeMonkey Utils/UI_BarMultiple.cs</fileName>
+    <timeStamp>2018-05-14T02:04:15-04:00</timeStamp>
+    <typeFullName>
+      <string>CodeMonkey.Utils.UI_BarMultiple</string>
+      <string>CodeMonkey.Utils.UI_BarMultiple+Outline</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8ba4b604c0e9db241bb3d130165415cd</guid>
+    <fileName>Assets/Scripts/Utility/CodeMonkey Utils/UI_TextComplex.cs</fileName>
+    <timeStamp>2018-05-14T02:09:57-04:00</timeStamp>
+    <typeFullName>
+      <string>CodeMonkey.Utils.UI_TextComplex</string>
+      <string>CodeMonkey.Utils.UI_TextComplex+Icon</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ce2355f335dcae94abba806390b1bd76</guid>
+    <fileName>Assets/Scripts/Utility/CodeMonkey Utils/UtilsClass.cs</fileName>
+    <timeStamp>2019-10-06T05:28:01-04:00</timeStamp>
+    <typeFullName>
+      <string>CodeMonkey.Utils.UtilsClass</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>91ce8dcaef210db41a183b4558f16bb2</guid>
+    <fileName>Assets/Scripts/Utility/CodeMonkey Utils/World_Mesh.cs</fileName>
+    <timeStamp>2018-06-01T07:38:10-04:00</timeStamp>
+    <typeFullName>
+      <string>CodeMonkey.Utils.World_Mesh</string>
+      <string>CodeMonkey.Utils.World_Mesh+UVCoords</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b549ed925b49d274c876184f60faabdf</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Demo/Scripts/All1ShaderDemoController.cs</fileName>
+    <timeStamp>2022-07-24T20:27:26-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f3804424ee2f162418d9294faf7ba055</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Demo/Scripts/All1TextureOffsetOverTime.cs</fileName>
+    <timeStamp>2022-07-24T20:27:36-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>384dba07353e1f242b467b6857a1e3d4</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Demo/Scripts/AllIn1ScrollProperty.cs</fileName>
+    <timeStamp>2022-07-24T20:27:03-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cc188be2d64e8d041aed6f375d92c463</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Demo/Scripts/Demo2AutoScroll.cs</fileName>
+    <timeStamp>2022-07-24T20:27:29-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fcb2e887baa071545bad04c7b0e87cce</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Demo/Scripts/DemoCamera.cs</fileName>
+    <timeStamp>2022-07-24T20:27:38-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6972382efdee4c642812251660f0c4bb</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Demo/Scripts/DemoCircleExpositor.cs</fileName>
+    <timeStamp>2022-07-24T20:27:11-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>98b644315d7a92842b89e04f55c48e02</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Demo/Scripts/DemoItem.cs</fileName>
+    <timeStamp>2022-07-24T20:27:19-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4ef3964599ee48c4ea5a4ecf012ed949</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Demo/Scripts/DemoRandomColorSwap.cs</fileName>
+    <timeStamp>2022-07-24T20:27:06-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>681095680e77fad40a6dd907b8ba358b</guid>
+    <fileName>Assets/Imported Assets/AllIn1SpriteShader/Demo/Scripts/DemoRepositionExpositor.cs</fileName>
+    <timeStamp>2022-07-24T20:27:11-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a08f67bbe580e4ddfaebd06363c9cc97</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/AI/AIBase.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>847a14d4dc9cc43679ab34fc78e0182f</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/AI/AILerp.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f6eb1402c17e84a9282a7f0f62eb584f</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/AI/AIPath.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b7438f3f6b9404f05ab7f584f92aa7d5</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/AI/IAstarAI.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>20549335d45df4a329ece093b865221b</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/AI/NavmeshController.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>373b52eb9bf8c40f785bb6947a1aee66</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/AI/Seeker.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8f95b80c439d6408b9afac9d013922e4</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/AI/TurnBasedAI.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d2e8b1fd6fa484fc29f8a26fb5e8662b</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/AnimationLink.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>787a564bf2d894ee09284b775074864c</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/ArrayPool.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5103795af2d504ea693528e938005441</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/AstarDebugger.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2664ef60fd2811ba280670298a6d312b</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/AutoRepathPolicy.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>eb4299e8747f44ad2b4e086752108ea3</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/BinaryHeap.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>506739df886ce4ebb9b14b16d86b5e13</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/Draw.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8127bc49e9e2d42dfa7a4e057842f165</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/EditorResourceHelper.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>704136724bc95455ebe477f42f5c5a84</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/GraphEditorBase.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>39897fb482672480a817862c3909a4aa</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/GraphModifier.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b1798d8e7c7d54972ae8522558cbd27c</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/GraphUpdateProcessor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fd178834bf6c54cdb8fc5f76a039a91c</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/GraphUtilities.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>aa5d6e4a6adb04d4ca9b7e735addcbd5</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/HierarchicalGraph.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5826dd4a1809b448291582cd06deadc1</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/Int3.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2b76b7593907b44d9a6ef1b186fee0a7</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/ListPool.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0a6cffd9895f94907aa43f18b0904587</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/MovementUtilities.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ca327ce4e754a4597a70fb963758f8bd</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/NodeLink.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bd2cfff5dfa8c4244aa00fea9675adb2</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/NodeLink2.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3850d0dc2bead45568e6b5bbcc011606</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/NodeLink3.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>10837c5b030bd47a2a0e6e213fea0868</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/ObjectPool.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9c0392dbc5e744ee28e7b9ee81aea1e2</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/PathInterpolator.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cefe1014ab62848a89016fb97b1f8f7b</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/PathPool.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f1b519f8b6e2c450aaae5cb2df6c73be</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/PathProcessor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>70ca370ae38794366be2fa32880f362e</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/PathReturnQueue.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>de467bbbb1ff84668ae8262caad00941</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/StackPool.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e6a8344fd0d1c453cbaf5c5eb8f55ca5</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/ThreadControlQueue.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>810a4e97f5ccb4b5184c4c3206492974</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/WindowsStoreCompatibility.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4236764d0fc1041abaac13b858be5118</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Misc/WorkItemProcessor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a660e0d66fb3b49d19d438de51ac6744</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Nodes/GraphNode.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e736879b230a341c59bfcaed0bec3ac3</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Serialization/JsonConverters.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>edd6db33319e94141bb849f4f58261c3</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Serialization/JsonSerializer.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f6973e76355ee420394e5f521d20e2cc</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Serialization/SimpleJsonReplacement.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e4ab3c0aea7564a9c9af3bf72ed95858</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Serialization/SimpleZipReplacement.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>761fd44fdff0b40648c9b7ce7763a06f</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Core/Serialization/TinyJson.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b0bbfd9d85ec946b2a05cdeaab0d6f5f</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/GraphEditors/GraphEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>22fe5ef0fc7b34922bb13d1961c9f444</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/GraphEditors/GridGeneratorEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c4ad80e9395de47c78e55cbaae437660</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/GraphEditors/NavMeshGeneratorEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b563cffdf75ee4497b91d4ac8e106260</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/GraphEditors/PointGeneratorEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5075ffc0df8c943368fa824db55589b4</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/Legacy/LegacyAIPathEditor2.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a97cec2d4f06c4d0eb0068c24cb47ca1</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/Legacy/LegacyEditorHelper2.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ec73ac2d3bd6342faace3242ff3e6f79</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/ModifierEditors/RaycastModifierEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1b6748a8c87024ddd9cc5f3c5e19ab60</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Editor/ModifierEditors/SmoothModifierEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5291f1ec332d746138ac025aecb1e12d</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/NodeClasses/GridNode.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1b723ddfaa37b46eca23cd8d042ad3e9</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/NodeClasses/GridNodeBase.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>986ad6174b59e40068c715a916740ce9</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/NodeClasses/PointNode.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>54908f58720324c048a5b475a27077fa</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/NodeClasses/TriangleMeshNode.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3a20480c673fd40a5bd2a4cc2206dbc4</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/Utilities/BBTree.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3ac3213e3eeb14eef91939f5281682e6</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/Utilities/EuclideanEmbedding.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f9d3961465175430a84fd52d1bd31b05</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/Utilities/GraphTransform.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7b09e5cbe5d4644c2b4ed9eed14cc13a</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/Utilities/GridLookup.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName>
+      <string>Item</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b56789f958bf1496ba91f7e2b4147166</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/Utilities/NavMeshRenderer.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7408cbadf2e744d22853a92b15abede1</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/Utilities/NavmeshTile.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a4ed1c6c3af454395b428ad955994366</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/Utilities/ObjImporter.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4aef007a0dd474c20872caa35fbbc8a7</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Generators/Utilities/PointKDTree.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4075ffc0df8c943368fa824db55589b4</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Legacy/Editor/LegacyAIPathEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f97cec2d4f06c4d0eb0068c24cb47ca1</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Legacy/Editor/LegacyEditorHelper.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>60b238a5bdb294eb48cfc8aff10ac9b5</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Legacy/Editor/LegacyRichAIEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>de195cf1c91924838ac8f0fedf5fa216</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/Legacy/Editor/LegacyRVOControllerEditor.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>58753931a68ae48b3973d0ce32d1a760</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/PackageTools/Editor/EditorBase.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2b6b4977544da4af3a4fe9e895fb6888</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/PackageTools/Editor/EditorGUIx.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>616267fcc419f44ea929599afa5c6aa2</guid>
+    <fileName>Assets/Imported Assets/AstarPathfindingProject/PackageTools/Editor/EnumFlagDrawer.cs</fileName>
+    <timeStamp>2021-11-06T07:52:01-04:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+</ArrayOfTypeDate>
