@@ -11,7 +11,7 @@ public class AnimationEventManager : MonoBehaviour
     public void TriggerCaughtScreen()
     {
         Debug.Log("caught screen loading");
-        levelTransitionManager.EnableCaughtScreen();
+        levelTransitionManager.LoadGameOverScreen();
     }
 
     public void TriggerTeleport()

@@ -1,9 +1,7 @@
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
+[RequireComponent(typeof(AudioSource))]
 public class LevelTransitionManager : MonoBehaviour
 {
     private AudioSource _audioSource;
@@ -29,8 +27,8 @@ public class LevelTransitionManager : MonoBehaviour
         _audioSource.Play();
         SceneManager.LoadScene("Main");
     }
-    public void EnableCaughtScreen()
+    public void LoadGameOverScreen()
     {
-        SceneManager.LoadScene("Scenes/Caught Menu");
+        SceneManager.LoadScene("Scenes/CaughtMenu");
     }
 }
