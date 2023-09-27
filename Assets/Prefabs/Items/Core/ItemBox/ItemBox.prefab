@@ -824,7 +824,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78d92f80081a8234f958014935ac5531, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _itemBox: {fileID: 4295074688629724630}
 --- !u!1 &4332077517313314946
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,7 +1127,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2177593208394498212
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1360,7 +1359,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78d92f80081a8234f958014935ac5531, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _itemBox: {fileID: 4295074688629724630}
 --- !u!1 &7086256900086205284
 GameObject:
   m_ObjectHideFlags: 0
@@ -1546,8 +1544,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09e9731af6edaa243adf63f9e4312e18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item1: {fileID: 0}
-  item2: {fileID: 0}
   itemPrefabs:
   - {fileID: 2256264180931852703, guid: db2791e4a0b16714db071254c5b39816, type: 3}
   - {fileID: 2256264180931852703, guid: db2791e4a0b16714db071254c5b39816, type: 3}
@@ -1577,23 +1573,7 @@ MonoBehaviour:
   - {fileID: 8741175323866682317, guid: c528fc37893d99b4a9782e6dcdc7c1c4, type: 3}
   - {fileID: 8741175323866682317, guid: 04fb68141e20a4949afbac35bb7b65f1, type: 3}
   - {fileID: 2256264180931852703, guid: db2791e4a0b16714db071254c5b39816, type: 3}
-  itemCardCanvas: {fileID: 5897355947984369097}
-  item1Name: {fileID: 5152217796110282145}
-  item1Description: {fileID: 4246060578454935337}
-  item1Stats: {fileID: 4002939656689386173}
-  item1Price: {fileID: 4002939656689386173}
-  item2Name: {fileID: 4277106433847197868}
-  item2Description: {fileID: 8246446871104933393}
-  item2Stats: {fileID: 4219416314924328685}
-  item2Price: {fileID: 4219416314924328685}
-  item1Image: {fileID: 7722978054070573297}
-  item2Image: {fileID: 4771983949986279389}
-  item1Highlight: {fileID: 5203502109871794019}
-  item2Highlight: {fileID: 5942092971186479141}
-  highlightedImage: {fileID: 5300501709190238210}
-  firstButton: {fileID: 3157945705582013127}
-  buttonHoldTime: 2
-  itemSpawner: {fileID: 0}
+  helperText: {fileID: 0}
 --- !u!212 &7413648195270876947
 SpriteRenderer:
   m_ObjectHideFlags: 0

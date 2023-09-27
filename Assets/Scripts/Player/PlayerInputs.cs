@@ -9,22 +9,22 @@ namespace DefaultNamespace
         public Vector2 move;
         public InputStates interact = InputStates.Raised;
         public InputStates useItem = InputStates.Raised;
-        private PlayerCharacterInputActions inputs;
+        private PlayerCharacterInputActions _inputs;
         private PlayerCharacterController _playerCharacterController;
 
         private void OnEnable()
         {
-            inputs.Enable();
+            _inputs.Enable();
         }
         private void OnDisable()
         {
-            inputs.Disable();
+            _inputs.Disable();
         }
 
         private void Awake()
         {
             _playerCharacterController = GetComponent<PlayerCharacterController>();
-            inputs = new PlayerCharacterInputActions();
+            _inputs = new PlayerCharacterInputActions();
             /*inputs.Controller.Move.performed += OnMove;
             inputs.Controller.Move.canceled += OnMove;*/
             //inputs.Controller.Interact.performed += OnInteract;
@@ -52,7 +52,7 @@ namespace DefaultNamespace
             {
                 useItem = InputStates.WasPressedThisFrame;
                 //so bad but no time
-                if (_playerCharacterController.teleporting) return;
+                if (_playerCharacterController.IsPlayerControlDisabled()) return;
                 
                 _playerCharacterController.UseItem();
             }          

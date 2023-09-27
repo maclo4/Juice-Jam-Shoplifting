@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class NpcManager : MonoBehaviour
+public class NpcManager : Singleton<NpcManager>
 {
     public Transform spawn;
     public GameObject baseSecurityPrefab;
@@ -17,8 +17,9 @@ public class NpcManager : MonoBehaviour
 
     private float speedModifier = 0;
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         if (FindObjectsOfType(typeof(SecurityAi)) is SecurityAi[] securityAiArray)
             securityAis = securityAiArray.ToList();
         else

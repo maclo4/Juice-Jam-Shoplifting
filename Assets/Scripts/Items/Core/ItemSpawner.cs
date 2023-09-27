@@ -2,21 +2,20 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class ItemSpawner : MonoBehaviour
+public class ItemSpawner : Singleton<ItemSpawner>
 {
-    private List<Transform> itemSpawnLocations;
-    public GameObject itemSpawnLocationsPrefab;
+    private List<Transform> _itemSpawnLocations;
 
     public GameObject itemBoxPrefab;
     public int maxItems = 15;
     public int initialItemCount = 10;
-    private int spawnListStartSize = 0;
+    private int _spawnListStartSize;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        itemSpawnLocations = itemSpawnLocationsPrefab.GetComponentsInChildren<Transform>().ToList();
-        spawnListStartSize = itemSpawnLocations.Count;
+        _itemSpawnLocations = gameObject.GetComponentsInChildren<Transform>().ToList();
+        _spawnListStartSize = _itemSpawnLocations.Count;
         
         InvokeRepeating(nameof(SpawnItem), 0f, 12f);
         
@@ -28,18 +27,16 @@ public class ItemSpawner : MonoBehaviour
 
     private void SpawnItem()
     {
-        if (itemSpawnLocations.Count <= spawnListStartSize - maxItems) return;
+        if (_itemSpawnLocations.Count <= _spawnListStartSize - maxItems) return;
         
-        var randomSpawnLocation = itemSpawnLocations[Random.Range(0, itemSpawnLocations.Count)];
-        itemSpawnLocations.Remove(randomSpawnLocation);
-        var itemBox = Instantiate(itemBoxPrefab, randomSpawnLocation.position, Quaternion.identity)
+        var randomSpawnLocation = _itemSpawnLocations[Random.Range(0, _itemSpawnLocations.Count)];
+        _itemSpawnLocations.Remove(randomSpawnLocation);
+        Instantiate(itemBoxPrefab, randomSpawnLocation.position, Quaternion.identity)
             .GetComponent<ItemBox>();
-
-        itemBox.itemSpawner = this;
     }
 
     public void AddSpawnLocation(Transform itemTransform)
     {
-        itemSpawnLocations.Add(itemTransform);
+        _itemSpawnLocations.Add(itemTransform);
     }
 }

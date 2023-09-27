@@ -12,63 +12,64 @@ public class PlayerCharacterController : MonoBehaviour
 {
     
     [HideInInspector] public PlayerInputs inputs;
-    private Animator animator;
+    private Animator _animator;
     private static readonly int CaughtAnim = Animator.StringToHash("Caught");
-    private bool disablePlayerControl;
-    public bool teleporting;
-    private Vector3 teleportDest;
-    public LevelTransitionManager levelTransitionManager;
-    public NpcManager npcManager;
-    public HudManager hudManager;
-    private Rigidbody2D rb;
+    private bool _disablePlayerControl;
+    private Vector3 _teleportDest;
+    private LevelTransitionManager _levelTransitionManager;
+    private NpcManager _npcManager;
+    private HudManager _hudManager;
+    private Rigidbody2D _rb;
     [SerializeField] private FieldOfView fieldOfView;
 
-    private Vector2 currVelocity;
-    private Vector2 currTeleportVelocity;
+    private Vector2 _currVelocity;
+    private Vector2 _currTeleportVelocity;
     public float decelerationTime;
     public float accelerationTime;
     [FormerlySerializedAs("stealth")] public float visionRange;
     public float maxSpeed;
     public float valueStolen;
 
-    private List<Item> inventory;
+    private List<Item> _inventory;
     private static readonly int Teleport = Animator.StringToHash("Teleport");
-    private static readonly int EndTeleport = Animator.StringToHash("EndTeleport");
+    private static readonly int MoveLeft = Animator.StringToHash("MoveLeft");
+    private static readonly int MoveRight = Animator.StringToHash("MoveRight");
+    private static readonly int MoveUp = Animator.StringToHash("MoveUp");
+    private static readonly int MoveDown = Animator.StringToHash("MoveDown");
 
     // Start is called before the first frame update
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        _rb = GetComponent<Rigidbody2D>();
         inputs = GetComponent<PlayerInputs>();
-        animator = GetComponentInChildren<Animator>();
-        inventory = new List<Item>();
+        _animator = GetComponentInChildren<Animator>();
+        _hudManager = HudManager.Instance;
+        _npcManager = NpcManager.Instance;
+        _levelTransitionManager = LevelTransitionManager.Instance;
+        
+        _inventory = new List<Item>();
         fieldOfView.SetViewDistance(visionRange);
     }
 
     // Update is called once per frame
     private void FixedUpdate()
     {
-        if (disablePlayerControl)
+        if (_disablePlayerControl)
         {
-            animator.SetTrigger(CaughtAnim);
-            
-            return;
-        }
-        if (teleporting)
-        {
+            _rb.velocity = Vector2.zero;
             return;
         }
         if (inputs.move.magnitude >= .1)
         {
             var smoothDampVelocity = Vector2.SmoothDamp(
-                rb.velocity, inputs.move * maxSpeed, ref currVelocity, accelerationTime);
-            rb.velocity = smoothDampVelocity;
+                _rb.velocity, inputs.move * maxSpeed, ref _currVelocity, accelerationTime);
+            _rb.velocity = smoothDampVelocity;
         }
         else if (inputs.move.magnitude < .1)
         {
             var smoothDampVelocity = Vector2.SmoothDamp(
-                rb.velocity, Vector2.zero, ref currVelocity, decelerationTime);
-            rb.velocity = smoothDampVelocity;
+                _rb.velocity, Vector2.zero, ref _currVelocity, decelerationTime);
+            _rb.velocity = smoothDampVelocity;
         }
     }
 
@@ -77,11 +78,7 @@ public class PlayerCharacterController : MonoBehaviour
         fieldOfView.SetAimDirection(inputs.move.normalized);
         fieldOfView.SetOrigin(transform.position);
         
-        if (disablePlayerControl)
-        {
-            return;
-        }
-        if (teleporting)
+        if (_disablePlayerControl)
         {
             return;
         }
@@ -91,35 +88,35 @@ public class PlayerCharacterController : MonoBehaviour
 
         if (inputs.move.x < -.05 && Mathf.Abs(inputs.move.x) > Mathf.Abs(inputs.move.y))
         {
-            animator.SetTrigger("MoveLeft");
+            _animator.SetTrigger(MoveLeft);
         }
         if (inputs.move.x > .05 && Mathf.Abs(inputs.move.x) > Mathf.Abs(inputs.move.y))
         {
-            animator.SetTrigger("MoveRight");
+            _animator.SetTrigger(MoveRight);
         }
         if (inputs.move.y > .05 && Mathf.Abs(inputs.move.y) > Mathf.Abs(inputs.move.x))
         {
-            animator.SetTrigger("MoveUp");
+            _animator.SetTrigger(MoveUp);
         }
         if (inputs.move.y < -.05 && Mathf.Abs(inputs.move.y) > Mathf.Abs(inputs.move.x))
         {
-            animator.SetTrigger("MoveDown");
+            _animator.SetTrigger(MoveDown);
         }
     }
 
     public void UseItem()
     {
-        if (inventory.Count <= 0) return;
+        if (_inventory.Count <= 0) return;
 
         StartCoroutine(ApplyItemEffect());
     }
     private IEnumerator ApplyItemEffect()
     {
-        var item = inventory.Last();
+        var item = _inventory.Last();
         item.UseItem(this);
         
-        inventory.Remove(item);
-        hudManager.UpdateItemImages(inventory);
+        _inventory.Remove(item);
+        _hudManager.UpdateItemImages(_inventory);
         
         yield return new WaitForSeconds(item.duration);
         
@@ -131,21 +128,27 @@ public class PlayerCharacterController : MonoBehaviour
         if (item.usable)
         {
             valueStolen += item.price;
-            inventory.Add(item);
-            hudManager.UpdateItemImages(inventory);
+            _inventory.Add(item);
+            _hudManager.UpdateItemImages(_inventory);
         }
         else
         {
             valueStolen += item.price;
         }
         
-        npcManager.TrackItemStolen(item);   
+        _npcManager.TrackItemStolen(item);   
     }
     public void Caught()
     {
-        disablePlayerControl = true;
-        animator.Play(CaughtAnim);
-        
+        StartCoroutine(CaughtCoroutine());
+    }
+
+    private IEnumerator CaughtCoroutine()
+    {
+        _disablePlayerControl = true;
+        _animator.SetTrigger(CaughtAnim);
+        yield return new WaitForSeconds(.5f);
+        _levelTransitionManager.LoadGameOverScreen();
     }
 
     public void IncreaseVisionRange(float increase)
@@ -156,26 +159,34 @@ public class PlayerCharacterController : MonoBehaviour
 
     public void BeginTeleportPlayer(Vector3 destinationTeleporter)
     {
-        teleporting = true;
-        animator.SetBool(Teleport, true);
-        teleportDest = destinationTeleporter;
-        rb.velocity = Vector2.zero;
-        
+        StartCoroutine(TeleportCoroutine(destinationTeleporter));
     }
 
-    public void TeleportPlayer()
+    private IEnumerator TeleportCoroutine(Vector3 destinationTeleporter)
+    {
+        _animator.SetBool(Teleport, true);
+        _rb.velocity = Vector2.zero;
+        _disablePlayerControl = true;
+        
+        yield return new WaitForSeconds(.3f);
+        
+        TeleportPlayer(destinationTeleporter);
+        _animator.SetBool(Teleport, false);
+        
+        yield return new WaitForSeconds(.3f);
+        
+        _disablePlayerControl = false;
+    }
+
+    public void TeleportPlayer(Vector3 destinationTeleporter)
     {
         Debug.Log("teleport");
-        transform.position = teleportDest;
-        animator.SetBool(Teleport, false);
+        transform.position = destinationTeleporter;
+        _animator.SetBool(Teleport, false);
     }
 
-    /*public void DisablePlayerInputs()
+    public bool IsPlayerControlDisabled()
     {
-        inputs.enabled = false;
+        return _disablePlayerControl;
     }
-    public void EnablePlayerInputs()
-    {
-        inputs.enabled = false;
-    }*/
 }

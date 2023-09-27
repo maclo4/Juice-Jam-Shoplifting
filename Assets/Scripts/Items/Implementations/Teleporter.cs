@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using DefaultNamespace;
 using UnityEngine;
 
@@ -15,7 +12,8 @@ public class Teleporter : MonoBehaviour
         
         highlightText.SetActive(true);
         _playerCharacterController = other.gameObject.GetComponent<PlayerCharacterController>();
-        if (_playerCharacterController.inputs.interact == InputStates.WasPressedThisFrame && !_playerCharacterController.teleporting)
+        if (_playerCharacterController.inputs.interact == InputStates.WasPressedThisFrame && 
+            !_playerCharacterController.IsPlayerControlDisabled())
         {
             _playerCharacterController.BeginTeleportPlayer(destinationTeleporter.position);
         }
@@ -27,7 +25,8 @@ public class Teleporter : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
 
-        if (_playerCharacterController.inputs.interact == InputStates.WasPressedThisFrame && !_playerCharacterController.teleporting)
+        if (_playerCharacterController.inputs.interact == InputStates.WasPressedThisFrame && 
+            !_playerCharacterController.IsPlayerControlDisabled())
         {
             _playerCharacterController.BeginTeleportPlayer(destinationTeleporter.position);
         }

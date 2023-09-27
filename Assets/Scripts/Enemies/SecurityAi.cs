@@ -283,41 +283,6 @@ public class SecurityAi : MonoBehaviour
         if (chaseCoroutineRunning) return;
         StartCoroutine(ChaseTimer());
     }
-    /*
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (!other.CompareTag("Player") || state == SecurityStates.Chasing || !playerInLineOfSight) return;
-
-        playerTransform = other.transform;
-        state = SecurityStates.Chasing;
-        
-        SetPathToPlayer();
-    }*/
-
-    /*void OnTriggerStay2D(Collider2D other)
-    {
-        Debug.Log("On trigger stay ");
-        if (!other.CompareTag("Player")) return;
-        if (state != SecurityStates.Chasing && playerInLineOfSight) return;
-        {
-            Debug.Log("On trigger stay set player path");
-            playerTransform = other.transform;
-            state = SecurityStates.Chasing;
-            
-            SetPathToPlayer();
-        }
-        
-        if (state == SecurityStates.Chasing && playerInLineOfSight)
-        {
-            currChaseTime = chaseTime;
-        }
-    }
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (!other.CompareTag("Player") || chaseCoroutineRunning) return;
-        
-        StartCoroutine(ChaseTimer());
-    }*/
 
     IEnumerator ChaseTimer()
     {
@@ -325,9 +290,6 @@ public class SecurityAi : MonoBehaviour
         
         while (currChaseTime > 0)
         {
-            
-            Debug.Log(currChaseTime);
-            //yield on a new YieldInstruction that waits for 5 seconds.
             yield return new WaitForSeconds(.5f);
             currChaseTime -= .5f;
         }
@@ -337,7 +299,6 @@ public class SecurityAi : MonoBehaviour
         state = SecurityStates.Scanning;
         animator.SetTrigger(Scanning);
             
-        //speed = 0;
         currentWaypoint = 0;
         
         chaseCoroutineRunning = false;

@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(AudioSource))]
-public class LevelTransitionManager : MonoBehaviour
+public class LevelTransitionManager : Singleton<LevelTransitionManager>
 {
     private AudioSource _audioSource;
     
