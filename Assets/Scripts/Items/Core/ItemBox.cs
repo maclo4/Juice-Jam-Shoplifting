@@ -14,33 +14,22 @@ public class ItemBox : MonoBehaviour
     public GameObject helperText;
     private float _startTime;
     
-    private ItemSpawner _itemSpawner;
 
     private void Start()
     {
-        _itemSpawner = ItemSpawner.Instance;
+        SelectRandomItems();
+    }
+
+    private void SelectRandomItems()
+    {
         _item1 = itemPrefabs[Random.Range(0, itemPrefabs.Count)].GetComponent<Item>();
         _item2 = itemPrefabs[Random.Range(0, itemPrefabs.Count)].GetComponent<Item>();
+        while (_item2.type == _item1.type)
+        {
+            _item2 = itemPrefabs[Random.Range(0, itemPrefabs.Count)].GetComponent<Item>();
+        }
     }
 
-    public void SelectLeftItem()
-    {
-        AddItemToInventory(_item1);
-        Time.timeScale = 1;
-        gameObject.SetActive(false);
-    }
-    public void SelectRightItem()
-    {
-        AddItemToInventory(_item2);
-        Time.timeScale = 1;
-        gameObject.SetActive(false);
-    }
-
-    private void AddItemToInventory(Item item)
-    {
-        _itemSpawner.AddSpawnLocation(transform);
-        _playerCharacterController.StealItem(item);
-    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
@@ -72,8 +61,8 @@ public class ItemBox : MonoBehaviour
 
     private void DisplayItems()
     {
-        helperText.SetActive(false);
         HudManager.Instance.DisplayItems(_item1, _item2);
+        gameObject.SetActive(false);
     }
     
 }

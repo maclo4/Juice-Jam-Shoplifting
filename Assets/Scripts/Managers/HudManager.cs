@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Globalization;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -10,6 +11,7 @@ public class HudManager : Singleton<HudManager>
     [FormerlySerializedAs("characterController")] 
     public PlayerCharacterController playerCharacterController;
     public TMP_Text moneyText;
+    public TMP_Text additionalItemsText;
     public List<Image> itemImages;
     public Slider securityMeter;
 
@@ -18,7 +20,7 @@ public class HudManager : Singleton<HudManager>
     public TMP_Text item2Name, item2Description, item2Price;
     public Image item1Image, item2Image;
     public Image item1Highlight, item2Highlight;
-    public Button firstButton;
+    public List<Button> itemButtons;
 
     private Item _item1, _item2;
     private ItemSpawner _itemSpawner;
@@ -37,34 +39,39 @@ public class HudManager : Singleton<HudManager>
 
     public void UpdateItemImages(List<Item> items)
     {
-        items.Reverse();
-        for(var i = 0; i < items.Count; i++)
+        for(var i = 0; i < items.Count && i < itemImages.Count; i++)
         {
-            if (i >= itemImages.Count) break;
-
-            var lastItem = items[i];
-            itemImages[i].sprite = lastItem.image;
+            itemImages[i].sprite = items[i].image;
             itemImages[i].color = Color.white;
         }
+        if (items.Count > itemImages.Count)
+        {
+            itemImages.Last().color = Color.clear;
+            itemImages.Last().sprite = null;
+            additionalItemsText.text = "+" + (items.Count - itemImages.Count + 1);
+        }
 
-        items.Reverse();
-
+        if (items.Count == itemImages.Count)
+            additionalItemsText.text = "";
+        
         for(var i = items.Count; i < itemImages.Count; i++)
         {
+            itemImages[i].sprite = null;
             itemImages[i].color = Color.clear;
         }
     }
     
+    //So bad
     public void DisplayItems(Item item1, Item item2)
     {
         _item1 = item1;
         _item2 = item2;
         
         itemCardsParent.SetActive(true);
-        firstButton.Select();
+        itemButtons.First().Select();
         
         item1Image.sprite = _item1.image;
-        item2Image.sprite = _item1.image;
+        item2Image.sprite = _item2.image;
         
         item1Name.text = _item1.name;
         item2Name.text = _item2.name;
@@ -83,7 +90,7 @@ public class HudManager : Singleton<HudManager>
                 item1Highlight.color = Color.green;
                 item1Highlight.color = new Color(item1Highlight.color.r, item1Highlight.color.g,
                     item1Highlight.color.b,alpha);
-                break;
+                break; 
             default:
                 item1Highlight.color = Color.white;
                 item1Highlight.color = new Color(item1Highlight.color.r, item1Highlight.color.g,
@@ -112,18 +119,46 @@ public class HudManager : Singleton<HudManager>
     {
         AddItemToInventory(_item1);
         Time.timeScale = 1;
-        gameObject.SetActive(false);
+        itemCardsParent.SetActive(false);
     }
     public void SelectRightItem()
     {
         AddItemToInventory(_item2);
         Time.timeScale = 1;
-        gameObject.SetActive(false);
+        itemCardsParent.SetActive(false);
     }
 
     private void AddItemToInventory(Item item)
     {
         _itemSpawner.AddSpawnLocation(transform);
         playerCharacterController.StealItem(item);
+    }
+
+    //This is so bad
+    public void DisplayItemDetails(GameObject selectedItemObject)
+    {
+        if (selectedItemObject.GetInstanceID() == itemButtons[0].GetInstanceID())
+        {
+            item1Description.gameObject.SetActive(true);
+            item2Description.gameObject.SetActive(false);
+
+            item1Price.gameObject.SetActive(true);
+            item2Price.gameObject.SetActive(false);
+
+            item1Highlight.gameObject.SetActive(true);
+            item2Highlight.gameObject.SetActive(false);
+        }
+        
+        if (selectedItemObject.GetInstanceID() == itemButtons[1].GetInstanceID())
+        {
+            item1Description.gameObject.SetActive(false);
+            item2Description.gameObject.SetActive(true);
+
+            item1Price.gameObject.SetActive(false);
+            item2Price.gameObject.SetActive(true);
+            
+            item1Highlight.gameObject.SetActive(false);
+            item2Highlight.gameObject.SetActive(true);
+        }
     }
 }

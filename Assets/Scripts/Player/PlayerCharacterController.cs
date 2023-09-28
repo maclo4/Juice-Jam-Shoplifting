@@ -112,7 +112,7 @@ public class PlayerCharacterController : MonoBehaviour
     }
     private IEnumerator ApplyItemEffect()
     {
-        var item = _inventory.Last();
+        var item = _inventory.First();
         item.UseItem(this);
         
         _inventory.Remove(item);

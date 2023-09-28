@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2967594495791042592
 RectTransform:
   m_ObjectHideFlags: 0
@@ -63,6 +63,7 @@ MonoBehaviour:
   duration: 5
   usable: 1
   gumTrap: {fileID: 4599445708784758757, guid: 2cd9610d5a2b48c46bb2242135d1b416, type: 3}
+  lampTrap: {fileID: 0}
 --- !u!61 &3595309013663378364
 BoxCollider2D:
   m_ObjectHideFlags: 0
